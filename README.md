@@ -19,8 +19,10 @@ The Klipse live repl is also included in this website to make the code snippets 
 (live-evaluation? "awesomenessness")
 ```
 
-> #### Hint::Klipse can use Github Gists
-> You can include code in Klipse evaluation that has been added to public [Github Gists](https://gist/github.com)
+> #### Hint::Klipse Hints
+> Run [Klipse as a stand-alone editor](http://app.klipse.tech/?eval_only=1) or as [a stand-alone editor with Javascript output](http://app.klipse.tech/)
+>
+> Klipse can evaluate code from a public [Github Gists](https://gist/github.com)
 
 ## Exercises
 
