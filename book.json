@@ -1,6 +1,10 @@
 {
     "gitbook": ">=3.0.0",
-    "title": "Clojurescript Practicalli",
+    "title": "Clojurebridge London Workshop",
+    "description": "Introducing Clojure development and the essence of functional programming",
+    "structure": {
+        "readme": "introduction.md"
+    },
     "styles": {
         "ebook": "styles/ebook.css",
         "pdf": "styles/pdf.css",
