@@ -66,7 +66,7 @@
         * [Impure function examples](functions/impure-function-examples.md)
 * [First Project](first-project/index.md)
     * [Drawing Lines (Nightcode)](https://github.com/clojurebridge-berlin/drawing/blob/master/curriculum/first-program.md)
-    * [Celebrity Name Smash](first-project/celebrity-name-smash.md)
+    * [Celebrity Name Smash](exercises/celebrity-name-smash.md)
 * [Flow Control & Logic](flow-control-logic/index.md)
     * [if](flow-control-logic/if.md)
     * [truthiness](flow-control-logic/truthiness.md)
