@@ -17,13 +17,8 @@ Animation is simply multiple images drawn or displayed one after the other.
 
 * [Thi.ng](http://thi.ng/) - an open source collection of 20+ computational design tools for Clojure & Clojurescript.
 
+
 ### Example applications
 
 * [Goya](https://jackschaedler.github.io/goya/) - a web application for creating pixel base images
 
-## Games
-
-Make 2D games with [Play.cljs](https://github.com/oakes/play-cljs), a ClojureScript library. Play.cljs uses the p5.js Javascript library underneath which allows you to make use of the whole browser page.
-
-> #### Todo::
-> Include animated gif of a play.cljs game
