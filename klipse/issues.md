@@ -4,7 +4,7 @@ When using the `gitbook-plugin-sectionx` you can collapse sections of the page.
 
 Using the `gitbook-plugin-klipse` inside a collapse section renders correctly when that section is expanded by default, `data-collapse=false`.
 
-Klipse inside a sectionx - `data-collapse=true`
+Klipse inside a sectionx - `data-collapse=false`
 
 <!--sec data-title="Reveal answer..." data-id="answer002" data-collapse=false ces-->
 ```eval-clojure
