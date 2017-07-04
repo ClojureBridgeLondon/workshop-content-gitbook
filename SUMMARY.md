@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](introduction.md)
+    * [Contribute](contribute.md)
 * [Preparing for the Workshop](prepare-for-the-workshop.md)
 * [Introducing Clojure](introducing-clojure/index.md)
     * [Why Clojure?](introducing-clojure/why-clojure.md)
