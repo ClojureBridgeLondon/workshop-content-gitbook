@@ -4,6 +4,8 @@ Testing an alternative content style for the ClojureBridge curriculum.
 
 This uses 99% of the existing ClojureBridge curriculum content, however instead of slides we are using Gitbook to provide structure and format of the content.
 
+The sections from [New Content](/new.html) onward contain examples and exercises that are new to the ClojureBridge curriculum.  See the section on [contributing to the ClojureBridge workshop](/contribute.md).
+
 
 ## Using this workshop
 
@@ -18,10 +20,10 @@ The pages in the workshop can be navigated using the right and left arrow keys, 
 The Klipse live repl is also included in this website to make the code snippets interactive.  All code examples and exercises are placed in Klipse code snippets.
 
 ```eval-clojure
-(defn live-evaluation? [opinion]
+(defn live-evaluation [opinion]
   (str "Klipse live evaluation is... " opinion))
 
-(live-evaluation? "awesomenessness")
+(live-evaluation "awesomenessness")
 ```
 
 > #### Hint::Klipse Hints
@@ -31,12 +33,12 @@ The Klipse live repl is also included in this website to make the code snippets 
 
 ### Exercises
 
-Exercises are denoted by using the Note `callout` plugin for github.  Exercises look like:
+Exercises are denoted by using the Note [callout plugin](https://www.npmjs.com/package/gitbook-plugin-callouts) for gitbook.  Exercises look like:
 
 > #### Note::Create a Clojure project
 > Use the Leiningen tool to create a project called **clojure-is-awesomenessness**
 
-There are other `callout` box styles available, including: Info, Hint, Warning, Tag, Comment, Success, Caution, Quote and Danger.
+There are other [callout](https://www.npmjs.com/package/gitbook-plugin-callouts) styles available, including: Info, Hint, Warning, Tag, Comment, Success, Caution, Quote and Danger.
 
 
 ### Answers
@@ -55,7 +57,7 @@ To keep answers included directly in the workshop they can be placed in hidden s
 ```
 
 > #### Hint::
-> Answers are added as fixed code blocks so the students dont accidentally change them and then get confused when the answer doesnt work.
+> Adding example answers as fixed code blocks prevents the students from accidentally change them and then getting confused when the answer doesnt work.
 
 <!--endsec-->
 
