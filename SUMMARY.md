@@ -102,8 +102,8 @@
     * [Division](new/arithmetic/division.md)
     * [Ratio](new/arithmetic/ratio.md)
     * [Prefix notation](new/arithmetic/prefix-notation.md)
-    
-
+* [Code Kata](code-kata/index.md)
+    * [Recent Song Playlist](code-kata/recent-song-playlist.md)
 * [Basics]()
     * [Strings]()
     * [Numbers]()
