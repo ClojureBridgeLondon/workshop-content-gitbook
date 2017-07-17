@@ -13,7 +13,7 @@ Some simple arithmetic to help you see how much Clojure you have learnt already.
 
 
 > #### Note::Convert Seconds back to Minutes & Seconds
-> Convert the workshop time elapsed fron seconds to minutes and seconds.
+> Convert the workshop time elapsed from seconds to minutes and seconds.
 > The minutes and the seconds should be separate numbers.
 >
 > `(quot x y)` will give you the whole number part of x divided by y.
