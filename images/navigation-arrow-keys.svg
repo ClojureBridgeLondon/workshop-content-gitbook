@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="126.22437mm"
+   height="28.728319mm"
+   viewBox="0 0 126.22437 28.728319"
+   version="1.1"
+   id="svg5263"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="navigation-arrow-keys.svg"
+   inkscape:export-filename="/home/jr0cket/projects/practicalli/clojurebridge-workshop/images/navigation-arrow-keys.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs5257" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="104.3643"
+     inkscape:cy="-310.62341"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="4"
+     fit-margin-left="4"
+     fit-margin-right="4"
+     fit-margin-bottom="4"
+     inkscape:window-width="2560"
+     inkscape:window-height="1416"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5260">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-30.852718,-37.919235)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="95.023338"
+       y="50.181545"
+       id="text5810"><tspan
+         sodipodi:role="line"
+         id="tspan5808"
+         x="95.023338"
+         y="50.181545"
+         style="text-align:center;text-anchor:middle;stroke-width:0.26458332px">Navigate with</tspan><tspan
+         sodipodi:role="line"
+         x="95.023338"
+         y="58.119045"
+         style="text-align:center;text-anchor:middle;stroke-width:0.26458332px"
+         id="tspan5812">left &amp; right arrow keys</tspan></text>
+    <g
+       id="g5868"
+       transform="matrix(0.02467804,0,0,0.02467804,34.605321,39.944375)">
+      <path
+         id="path5866"
+         d="m 380.5,100.5 -350,350 c -27.3,27.3 -27.3,71.6 0,99 l 350,350 c 27.3,27.3 71.6,27.3 99,0 27.3,-27.3 27.3,-71.6 0,-99 L 249,570 h 671 c 38.7,0 70,-31.3 70,-70 0,-38.7 -31.3,-70 -70,-70 H 249 L 479.5,199.5 C 493.2,185.8 500,167.9 500,150 c 0,-17.9 -6.8,-35.8 -20.5,-49.5 -27.4,-27.3 -71.7,-27.3 -99,0 z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g5868-3"
+       transform="matrix(-0.02467804,0,0,-0.02467804,153.32448,64.622415)">
+      <path
+         id="path5866-6"
+         d="m 380.5,100.5 -350,350 c -27.3,27.3 -27.3,71.6 0,99 l 350,350 c 27.3,27.3 71.6,27.3 99,0 27.3,-27.3 27.3,-71.6 0,-99 L 249,570 h 671 c 38.7,0 70,-31.3 70,-70 0,-38.7 -31.3,-70 -70,-70 H 249 L 479.5,199.5 C 493.2,185.8 500,167.9 500,150 c 0,-17.9 -6.8,-35.8 -20.5,-49.5 -27.4,-27.3 -71.7,-27.3 -99,0 z"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>
