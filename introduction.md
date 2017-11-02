@@ -1,4 +1,4 @@
-# ClojureBridge London
+![ClojureBridge - London Clojurians](/images/clojurebridge-london-clojurians-banner-abby-remix.png)
 
 Testing an alternative content style for the ClojureBridge curriculum.
 
