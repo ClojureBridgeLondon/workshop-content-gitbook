@@ -7,12 +7,12 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   viewBox="0 0 845.86267 149.08672"
+   viewBox="0 0 859.46063 125.0747"
    version="1.1"
    id="svg937"
    sodipodi:docname="clojurebridge-london-slack-channel-banner.svg"
-   width="223.80116mm"
-   height="39.445862mm"
+   width="227.39896mm"
+   height="33.092682mm"
    inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
    inkscape:export-filename="/home/jr0cket/projects/practicalli/clojurebridge-workshop/images/clojurebridge-london-slack-channel-banner.png"
    inkscape:export-xdpi="90"
@@ -50,35 +50,35 @@
      fit-margin-right="4"
      fit-margin-bottom="4"
      inkscape:zoom="1"
-     inkscape:cx="184.96371"
-     inkscape:cy="35.832526"
+     inkscape:cx="-4.0422947"
+     inkscape:cy="23.826521"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg937" />
+     inkscape:current-layer="g1028" />
   <g
      id="g1028"
-     transform="matrix(2.8687878,0,0,2.8687878,-6.5672149,-6.5672149)">
+     transform="matrix(2.8687878,0,0,2.8687878,-6.5732196,-18.573222)">
     <path
-       d="M 20.484185,8.2734665 H 278.9444 c 6.71589,0 12.21072,2.6999995 12.21072,5.9999995 v 28 c 0,3.3 -5.49483,6 -12.21072,6 H 20.484185 c -6.715896,0 -12.2107185,-2.7 -12.2107185,-6 v -28 c 0,-3.3 5.4948225,-5.9999995 12.2107185,-5.9999995 z"
+       d="M 20.624908,12.386306 H 283.54784 c 6.83184,0 12.42155,2.144767 12.42155,4.766148 v 22.242027 c 0,2.621381 -5.58971,4.766147 -12.42155,4.766147 H 20.624908 c -6.831856,0 -12.4215544,-2.144766 -12.4215544,-4.766147 V 17.152454 c 0,-2.621381 5.5896984,-4.766148 12.4215544,-4.766148 z"
        id="path907"
        inkscape:connector-curvature="0"
-       style="fill:#ffffff;fill-rule:nonzero;stroke:#c7cacd;stroke-width:1.42882276;stroke-miterlimit:4;stroke-dasharray:none" />
+       style="fill:#ffffff;fill-rule:nonzero;stroke:#c7cacd;stroke-width:1.28441072;stroke-miterlimit:4;stroke-dasharray:none" />
     <text
-       y="6.6984701"
-       x="4.2734661"
+       y="6.6834655"
+       x="2.1819904"
        font-size="15"
        font-weight="bold"
        id="text915"
        style="font-weight:bold;font-size:15px;font-family:Lato-Bold, Lato;fill:#434343;fill-rule:evenodd">
       <tspan
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium'"
-         x="43.273468"
-         y="32.698471"
-         id="tspan909">Clojurebride London Slack channel</tspan>
+         x="41.181992"
+         y="32.683468"
+         id="tspan909">Clojurebridge London Slack channel</tspan>
     </text>
     <g
-       transform="translate(14.273466,17.268976)"
+       transform="translate(14.273466,17.26898)"
        id="g933"
        style="fill:none;fill-rule:nonzero">
       <path
