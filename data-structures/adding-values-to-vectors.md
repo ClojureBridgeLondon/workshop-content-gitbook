@@ -1,8 +1,8 @@
-# Vector Update
+# Adding values to a Vector
 
 The `conj` function will add a value to an existing vector.
 
-Actually `conj` like most Clojure functions returns a new vector with the value from the original vector and the new value.  
+Actually `conj` like most Clojure functions returns a new vector with the value from the original vector and the new value.
 
 A vector is immutable. Once you create a vector, it is not possible to change it.
 
