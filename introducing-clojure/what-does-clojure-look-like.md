@@ -1,7 +1,7 @@
 ## What does Clojure look like?
 
 ```eval-clojure
-(print-str "Hello, World!")
+(str "Hello" " " "World!")
 ```
 ```eval-clojure
 (+ 3 4)
@@ -13,11 +13,15 @@
 
 <!--sec data-title="Parentheses ()" data-id="answer001" data-collapse=true ces-->
 
-Notice the parentheses. Parentheses enclose instructions to the
-computer in Clojure. A left parenthesis
-is the start of the instruction, and a matching right parenthesis is
-the end of enclosing instruction. Normally, Clojure code has a lot
-of nested parentheses, on other words, nested enclosing instructions.
+ Parentheses `( )` are a list in Clojure. A left parenthesis is the start of the list and needs a matchin right parenthesis or you will get an error.
+
+ It is quite common in Clojure code to have many nested parentheses
+
+```clojure
+(def username "john")
+
+(str "Welcome to our website: " (clojure.string/capitalize username))
+```
 
 <!--endsec-->
 
@@ -25,11 +29,11 @@ of nested parentheses, on other words, nested enclosing instructions.
 
 Next to the parentheses, we see the instructions to the computer. That instruction is normally what we call a _function_.
 
-The functions do all the hard work in Clojure. 
+The functions do all the hard work in Clojure.
 
 `print-str`, `+` and `forward` are all functions.
 
-When these functions get run, they return a some type of value. 
+When these functions get run, they return a some type of value.
 
 Clojure functions always return a value.
 
@@ -46,5 +50,3 @@ Many functions take in _arguments_ which are everything else inside the enclosin
 The `map` function takes the `inc` function and a collection `[1 2 3 4 5]` as arguments.  `map` takes a value in turn from the collection and applies the `inc` function on it, returning the result when all values have been processed.
 
 <!--endsec-->
-
-

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="194.58401mm"
+   height="72.536804mm"
+   viewBox="0 0 194.58401 72.536804"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="simple-values.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="583.31314"
+     inkscape:cy="-70.251038"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     fit-margin-top="4"
+     fit-margin-left="4"
+     fit-margin-right="4"
+     fit-margin-bottom="4"
+     inkscape:window-width="2560"
+     inkscape:window-height="1413"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-1.8912777,-11.508513)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:125%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-2.8473032"
+       y="64.23732"
+       id="text817"
+       transform="rotate(-8.2208224)"><tspan
+         sodipodi:role="line"
+         id="tspan815"
+         x="-2.8473032"
+         y="64.23732"
+         style="font-size:14.81668854px;fill:#d40000;stroke-width:0.26458332px">3.14159265359</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:125%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="115.56881"
+       y="-19.306318"
+       id="text817-3"
+       transform="rotate(31.193485)"
+       inkscape:transform-center-x="-15.610417"
+       inkscape:transform-center-y="-2.6458333"><tspan
+         sodipodi:role="line"
+         id="tspan815-6"
+         x="115.56881"
+         y="-19.306318"
+         style="font-size:14.8166666px;fill:#ff6600;stroke-width:0.26458332px">22/7</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:125%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="text817-35"><textPath
+         xlink:href="#path966"
+         id="textPath968"><tspan
+   style="font-size:14.8166666px;fill:#800080;stroke-width:0.26458332px"
+   id="tspan815-62">:keywords-are-magic</tspan></textPath></text>
+    <g
+       id="g964"
+       transform="translate(-38.364583,85.725)">
+      <text
+         id="text817-7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:125%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><textPath
+           id="textPath957"
+           xlink:href="#path903"><tspan
+   id="tspan815-5"
+   style="font-size:14.8166666px;fill:#44aa00;stroke-width:0.26458332px">&quot;A string of characters ;)&quot;</tspan></textPath></text>
+      <path
+         inkscape:connector-curvature="0"
+         id="path903"
+         d="M 47.886396,-59.833566 C 294.9023,-65.34976 208.6954,-19.994394 208.6954,-19.994394"
+         style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.31876293px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 39.68751,77.131081 c 155.83967,4.497893 130.70425,-28.57486 130.70425,-28.57486"
+       id="path966"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

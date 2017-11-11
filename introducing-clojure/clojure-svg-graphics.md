@@ -1,6 +1,14 @@
 # SVG Graphics
 
-Clojure can be used to generate and manipulate [Scalable Vector Graphics (SVG)](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics).  
+<!-- Hide the reagent include - too much information at this point
+     This code doesnt seem to load without manually freshing the page
+     Perhaps there is some interference from the Hiccup library  -->
+<pre class="hidden">
+  <code class="lang-eval-clojure" data-preamble="(require '[reagent.core :as r])">
+  </code>
+</pre>
+
+Clojure can be used to generate and manipulate [Scalable Vector Graphics (SVG)](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics).
 
 SVG images are _drawn_ from a collection of points and paths and images do not loose any quality when making them larger or smaller.  Using SVG images for the web and responsive design is highly recommended.
 
@@ -11,11 +19,6 @@ This example of an SVG images is made from:
 * a white background
 * a green circle and a smaller blue circle
 * a white curvy path
-
-<!-- Hide the reagent include - too much information at this point -->
-<pre class="hidden"><code class="lang-eval-clojure">
-(require '[reagent.core :as r])
-</code></pre>
 
 
 ```reagent
