@@ -4,7 +4,7 @@ You can test multiple conditions using boolean logic.
 
 _Boolean logic_ refers to combining and changing the results of predicates using `and`,`or`, and `not`.
 
-It follows the common sense way you look at things. 
+It follows the common sense way you look at things.
 
 Is this _and_ that true? Only if both are true. Is this _or_ that true?
 
@@ -23,8 +23,10 @@ Yes, if either -- or both! -- are. Is this _not_ true? Yes, if it's false.
 
 ## `and`, `or`, and `not` combination
 
-`and`, `or`, and `not` can be combined. This can be hard to read.
-Here's an example:
+`and`, `or`, and `not` can be combined to create a more complex condition.
+
+Here is an example containing several conditions for confirming if a calendar year is a leap year.
+
 
 ```eval-clojure
 (defn leap-year?
@@ -33,4 +35,15 @@ Here's an example:
   (and (zero? (mod year 4))
        (or (zero? (mod year 400))
            (not (zero? (mod year 100))))))
+;;
+(leap-year? 1984)
 ```
+
+> ####Note::Try explain this function to another student
+> If it seems complicated, take each of the conditions by themselves to see what they do.
+> Try the conditions with different years
+```eval-clojure
+()
+```
+
+If you get stuck with the exercise, ask a volunteer to help.

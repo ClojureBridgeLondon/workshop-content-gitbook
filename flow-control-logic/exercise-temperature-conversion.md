@@ -1,20 +1,23 @@
 # EXERCISE: Temperature conversion with `cond`
 
 > #### Note::Write a function which converts temperatures into degrees Celcius.
->
-> The function should take `degrees` and `scale` as arguments
->
-> Temperatures are converted from the Fahrenheit or Kelvin scale
+> The function should take `degrees` and `scale` as arguments, where scale is either fahrenheit or kelvin temperature scales.  If the celcius scale is used, then return the same value
+> For example:
+```cloure
+(temperature-in-celcius 32.0 :fahrenheit)    ;=> 0.0
+(temperature-in-celcius 300  :kelvin)        ;=> 26.85
+(temperature-in-celcius 22.5 :celcius)       ;=> 22.5
+(temperature-in-celcius 22.5 :fake)          ;=> "Unknown scale: :fake"
+```
+> If an unknown temperature scale is used, an error message should be returned
 ``` eval-clojure
-(defn to-celcius [degrees scale]
+(defn temperature-in-celcius [temperature scale]
   (cond
     ;; ...
     ))
-;; example function calls
-(to-celcius 32.0 :fahrenheit)      ;=> 0.0
-(to-celcius 300  :kelvin)          ;=> 26.85
-(to-celcius 22.5 :celcius)         ;=> 22.5
-(to-celcius 22.5 :fake)            ;=> "Unknown scale: :fake"
+;;
+;; Dont forget to call your function
+()
 ```
 
 <hr />
@@ -24,19 +27,21 @@
 > * Kelvin to Celcius:     `(+ Kelvin 273.15)` = Celcius
 
 
-<!--sec data-title="Reveal answer..." data-id="answer00" data-collapse=true ces-->
+<!--sec data-title="Reveal answer..." data-id="answer001" data-collapse=true ces-->
+
+Our function takes two arguments, the temperature in degrees celcius
 
 ``` clojure
-(defn to-celcius [degrees scale]
+(defn temperature-in-celcius [temperature scale]
   (cond
-    (= scale :C) degrees
-    (= scale :F) (* (- degrees 32) 5/9)
-    (= scale :K) (- degrees 273.15)
-    :else        (str "Unknown scale: " scale)))
+    (= scale :celcius)    temperature
+    (= scale :fahrenheit) (* (- temperature 32) 5/9)
+    (= scale :kelvin)     (- temperature 273.15)
+    :else                 (str "Unknown scale: " scale)))
 
-(to-celcius 32.0 :fahrenheit)         ;=> 0.0
-(to-celcius 300 :kelvin)          ;=> 26.85
-(to-celcius 22.5 :C)         ;=> 22.5
-(to-celcius 22.5 :gibberish) ;=> "Unknown scale: :gibberish"
+(temperature-in-celcius 32.0 :fahrenheit)    ;=> 0.0
+(temperature-in-celcius 300 :kelvin)         ;=> 26.85
+(temperature-in-celcius 22.5 :celcius)       ;=> 22.5
+(temperature-in-celcius 22.5 :gibberish)     ;=> "Unknown scale: :gibberish"
 ```
 <!--endsec-->
