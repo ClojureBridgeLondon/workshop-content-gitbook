@@ -2,9 +2,16 @@
 
 The `conj` function will add a value to an existing vector.
 
-Actually `conj` like most Clojure functions returns a new vector with the value from the original vector and the new value.
+```clojure
+(conj [1 2 3] 4)
+(conj ["Can" "we" "join"] ["two" "collections"])
+(conj ["Can" "we" "join"] "multiple" "values")
+(conj ["Mint" "Vanilla"] "Chocolate")
+```
 
 A vector is immutable. Once you create a vector, it is not possible to change it.
+
+`conj` like most Clojure functions returns a new vector with the value from the original vector and the new value.
 
 
 > #### Note::Add values to a vector
