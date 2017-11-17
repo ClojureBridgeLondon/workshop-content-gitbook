@@ -42,6 +42,7 @@ As there are two values the same, we could also calculate the total as follows
 ()
 ```
 
+------------------------------------------
 
 > #### Note::Find the age of the youngest programming language
 ```eval-clojure

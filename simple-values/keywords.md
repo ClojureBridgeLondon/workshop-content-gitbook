@@ -2,10 +2,7 @@
 
 Keywords are the strangest of the basic value types, they don’t have a real world analog like numbers, strings, or booleans.
 
-You can think of them as a special type of string, one that’s used for
-labels. 
-
-Keywords are often used as the keys of key-value pairs in a map (the map data which we will learn later).
+For now you can think of them as a special type of string, but has more super powers that we will cover in maps.
 
 
 ```clojure

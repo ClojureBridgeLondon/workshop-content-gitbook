@@ -2,16 +2,26 @@
 
 Clojure has several different types of numbers.
 
-* [Integer numbers](integers.html) (whole numbers)
-* [Decimal numbers](decimals.html) (floating point numbers)
-* [Ratios](ratios.html) (fractions)
+* Integer - are positive and negative whole numbers, including zero.
+* Float - decimal numbers, like the value for Pi, 3.141
+* Ratio - we know these as fractions, eg 3/4
 
-Hopefully you recognise these types of numbers from your daily life.
+You write them in Clojure just like we do in every day life.
 
-We can use these numbers for some simple arithmetic, which we will also practice later in this section.
+```clojure
+0
+12
+-42
+0.072725
+10.5
+-99.9
 
+3/4    ;; this is a ratio (a fraction)
+```
+
+Numbers can be used by themselves, although they don't do anything useful alone.  So lets do some maths...
 
 > #### Hint::
-> Integers are a simple example of Immutable values.  Once you create an Integer, you cannot change it.
+> Numbers are an example of Immutable values.  Once you create an number, you cannot change it.
 >
 > It would be a funny world if you could change the value of 1 so that it equalled 2
