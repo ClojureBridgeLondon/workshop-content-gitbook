@@ -1,17 +1,22 @@
 # Comments
 
-When we write code, we try to make it as clear as possible.
+Comments help to describe the intent of your code.  Why is your code doing what it is doing.
 
-Doing so is a huge advantage because our code gets read by others (oftentimes more so than by us!), or we come back to our own code to read it later, by which point we may have forgotten each exact detail of the code.
+In Clojure a comment is started by the character: `;`
 
-One way that we can clarify our code is annotating it with comments.
+Clojure ignores any line that starts with `;`, so comments are purely for the developers working with the code.
 
-Comments are notes that we add to code, for our own sake, that the computer ignores.
+When we write code, we try to make it as clear as possible.  This helps others understand what was written quickly.  Sometimes we can do this without comments, sometimes comments are very useful.
+
+> ####Hint::
+> Developers often come back to code they wrote themselves a while ago and realise they have forgotten Why code.
+
+
 
 ```clojure
-;; example functions from a previous slide
-(print-str "Hello, World!")  ; a well-known hello world
-(+ 3 4)                      ; why not 3 + 4? figure out later
+;; simple examples of functions to intrigue you for the next few pages
+(str "Hello" " " "World!")   ; a well-known hello world example
+(+ 3 4)                      ; why is this not written as 3 + 4?
 ```
 
 ## Comments style

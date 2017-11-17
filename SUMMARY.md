@@ -21,6 +21,11 @@
             * [Evaluate ClojureBridge Project](introducing-clojure/evaluate-turtle-project.md)
 * [Getting Help](introducing-clojure/getting-help.md)
 
+## Saturday workshop
+
+* [Overview](clojurebridge-workshop.md)
+    * [Recap: What does Clojure look like](recap-what-does-clojure-look-like.md)
+    * [Comments](comments.md)
 * [Simple Values](simple-values/index.md)
     * [Numbers](simple-values/numbers.md)
     * [Arithmetic](simple-values/arithmetic.md)
