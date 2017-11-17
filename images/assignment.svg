@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="178.00854mm"
+   height="79.527115mm"
+   viewBox="0 0 178.00854 79.527115"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="assignment.svg"
+   inkscape:export-filename="/home/jr0cket/projects/practicalli/clojurebridge-workshop/images/assignment.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="508.53896"
+     inkscape:cy="1.8337383"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="4"
+     fit-margin-left="4"
+     fit-margin-right="4"
+     fit-margin-bottom="4"
+     inkscape:window-width="2560"
+     inkscape:window-height="1413"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-31.142111,-105.74002)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:125%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="35.529758"
+       y="114.24852"
+       id="text817"><tspan
+         sodipodi:role="line"
+         id="tspan815"
+         x="35.529758"
+         y="114.24852"
+         style="stroke-width:0.26458332px"><tspan
+   style="font-weight:bold;font-size:6.3499999px;fill:#000080;stroke:#000080"
+   id="tspan821">(</tspan><tspan
+   style="font-weight:bold"
+   id="tspan907">let </tspan><tspan
+   style="fill:#008000;stroke:#008000"
+   id="tspan829">[</tspan><tspan
+   style="fill:#800080"
+   id="tspan835">name</tspan> &quot;value&quot;</tspan><tspan
+         sodipodi:role="line"
+         x="35.529758"
+         y="122.18602"
+         style="stroke-width:0.26458332px"
+         id="tspan819"><tspan
+   style="fill:#800080"
+   id="tspan833">      seconds-in-an-hour</tspan> (* 60 60)<tspan
+   style="fill:#008000;stroke:#008000"
+   id="tspan827">]</tspan></tspan><tspan
+         sodipodi:role="line"
+         x="35.529758"
+         y="130.12352"
+         style="stroke-width:0.26458332px"
+         id="tspan886"><tspan
+           style="font-weight:bold;font-size:8.46666622px"
+           id="tspan878" /><tspan
+           id="tspan896"
+           style="font-weight:normal;font-size:6.3499999px">  (str &quot;Hello &quot; name &quot;, there are &quot;</tspan></tspan><tspan
+         sodipodi:role="line"
+         x="35.529758"
+         y="138.06102"
+         style="stroke-width:0.26458332px"
+         id="tspan902"><tspan
+           style="font-weight:normal;font-size:6.3499999px"
+           id="tspan904">        seconds-in-an-hour &quot; second in an hour&quot;)</tspan><tspan
+           style="font-weight:bold;font-size:6.3499999px;fill:#0000ff;stroke:#0000ff"
+           id="tspan888">)</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:125%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="34.424561"
+       y="156.38783"
+       id="text817-3"><tspan
+         sodipodi:role="line"
+         id="tspan815-6"
+         x="34.424561"
+         y="156.38783"
+         style="stroke-width:0.26458332px"><tspan
+   style="font-weight:bold;font-size:8.46666622px;stroke-width:0.26458332px"
+   id="tspan821-7"><tspan
+     style="font-weight:normal;font-size:6.3499999px"
+     id="tspan919">(</tspan><tspan
+     style="font-size:6.3499999px"
+     id="tspan909">def </tspan></tspan><tspan
+   style="fill:#800080;stroke-width:0.26458332px"
+   id="tspan835-3">name</tspan> &quot;value&quot;)</tspan><tspan
+         sodipodi:role="line"
+         x="34.424561"
+         y="164.32533"
+         style="stroke-width:0.26458332px"
+         id="tspan913" /><tspan
+         sodipodi:role="line"
+         x="34.424561"
+         y="172.26283"
+         style="stroke-width:0.26458332px"
+         id="tspan915">(str &quot;Hello &quot; name)</tspan><tspan
+         sodipodi:role="line"
+         x="34.424561"
+         y="180.20033"
+         style="stroke-width:0.26458332px"
+         id="tspan917">(str name &quot;, you can use def names in many functions&quot;)</tspan><tspan
+         sodipodi:role="line"
+         x="34.424561"
+         y="180.20033"
+         style="stroke-width:0.26458332px"
+         id="tspan819-5"><tspan
+           style="font-weight:bold;font-size:8.46666622px;stroke-width:0.26458332px"
+           id="tspan825-9" /></tspan></text>
+  </g>
+</svg>
