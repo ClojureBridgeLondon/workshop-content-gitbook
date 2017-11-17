@@ -1,4 +1,4 @@
-# Impure functions 
+# Impure functions
 
 Using external values rather than the arguments that were passed
 
@@ -33,15 +33,27 @@ Using a global value rather than the argument passed makes this function non-det
 
 ## Impurity via host language interoperability
 
-Using code from the host environment is often a source of impurity, especially when that language is very stateful. 
+Using code from the host environment is often a source of impurity, especially when that language is very stateful.
 
-### Java Interop
+This example creates a new date object using the JavaScript `Date` class from the host environment.
 
-This example creates a new date object using the Java `Date` class from the host environment.
+```eval-clojure
+(defn task-complete [task-name]
+  (str "Setting task " task-name " completed on " (js/Date.)))
+
+(task-complete "hack clojure")
+```
+
+When we call task complete we have no control over the date that the funciton uses.
+
+
+<!--sec data-title="Java version of the example" data-id="answer002" data-collapse=true ces-->
+
+This example is the same as above, except it uses the Java `Date` class.
 
 `(java.util.Date.)` creates a new date object with the current date
 
-```eval-clojure
+```clojure
 (:import java.util.Date)
 
 (defn task-complete [task-name]
@@ -50,11 +62,25 @@ This example creates a new date object using the Java `Date` class from the host
 (task-complete "hack clojure")
 ```
 
-## A pure approach to Java Interoperability
+<!--endsec-->
 
-Generated numbers can be created outside a function and passed as an argument, keeping the function pure.
+
+## A pure approach to host language Interoperability
+
+It keeps functions simpler if you use generated numbers outside of a function and passed them as an argument.
+
+In this example we use `(.getTime (js/Date.))` to get the time from JavaScript
 
 ```eval-clojure
+(defn task-complete [task-name completed-date]
+  (str "Setting task " task-name " completed on " completed-date))
+
+(task-complete "hack clojure" (js/Date.))
+```
+
+<!--sec data-title="Java version of the example" data-id="answer003" data-collapse=true ces-->
+
+```clojure
 (:import java.util.Date)
 
 (defn task-complete [task-name completed-date]
@@ -62,6 +88,9 @@ Generated numbers can be created outside a function and passed as an argument, k
 
 (task-complete "hack clojure" (java.util.Date.))
 ```
+
+<!--endsec-->
+
 
 > #### Hint::
 > Where impure functions cannot be avoided, it is common to wrap impure code inside a function in order to keep all your other functions pure.

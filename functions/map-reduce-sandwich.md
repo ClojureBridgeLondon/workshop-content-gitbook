@@ -4,16 +4,26 @@ A common pattern when manipulating lots of data can be described using the Map-R
 
 ![Map Reduce Sandwidch](../images/map-reduce-sandwich.png)
 
-## Slide our ingredients
 
+> #### Note::Write the map reduce sandwich
+> Write map and reduce functions to create the map reduce sandwich
 ```eval-clojure
+()
+```
+
+<!--sec data-title="Reveal answer..." data-id="answer00" data-collapse=true ces-->
+
+
+## Slice our ingredients
+
+```clojure
 (defn slice [item]
   (str "sliced " item))
 ```
 
-## Map Slide over the ingredients
+## Map Slice over the ingredients
 
-```eval-clojure
+```clojure
 (def prepared-ingredience
   (map slice ["bread" "cucumber" "pepper" "tomato" "lettuce" "onion"]))
 ```
@@ -21,14 +31,13 @@ A common pattern when manipulating lots of data can be described using the Map-R
 
 ## Reduce our ingredients to a sandwich
 
-```eval-clojure
-(def make-sandwich
-  (reduce str (interpose ", " prepared-ingredience)))
+```clojure
+(defn make-sandwich [ingredience]
+  (reduce str (interpose ", " ingredience)))
 
-(str "A tasty sandwich made with " make-sandwich)
+(str "A tasty sandwich made with " (make-sandwich prepared-ingredience))
 ```
 
-<!--sec data-title="Map Reduce Sandwidch using Threading" data-id="answer001" data-collapse=true ces-->
 
 Here is the same map-reduce sandwich using a slightly different syntax
 

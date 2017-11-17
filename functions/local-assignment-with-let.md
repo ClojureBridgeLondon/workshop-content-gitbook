@@ -11,6 +11,6 @@ Inside of a function, however, you should _not_ use `def`, like you would outsid
   (let [c (count values)
         s (reduce + values)]
     (/ s c)))
-(average [1.0 1.0 2.0 3.0 5.0]) ;=> 2.4
-```
 
+(average [1.0 1.0 2.0 3.0 5.0])
+```
