@@ -1,13 +1,13 @@
 ## Games
 
+* [Flappy Bird game in ClojureScript](https://www.youtube.com/watch?v=KZjFVdU8VLI)
+
+
+## [Play.cljs](https://github.com/oakes/play-cljs)
+
 Make 2D games with [Play.cljs](https://github.com/oakes/play-cljs), a ClojureScript library. Play.cljs uses the p5.js Javascript library underneath which allows you to make use of the whole browser page.
 
-## [Play.cljs](https://github.com/oakes/play-cljs) 
-
-[Play.cljs](https://github.com/oakes/play-cljs) is a ClojureScript library for making games. It uses [p5.js](http://p5js.org/) underneath. There are several ways to create a project:
-
 * [Boot](http://boot-clj.com/): `boot -d boot/new new -t play-cljs -n hello-world`
-* [Nightcode](https://sekao.net/nightcode/): Choose "Game Project" from its start menu
 * [Nightcoders.net](http://nightcoders.net/): Choose "Game" when creating a new project
 
 ## Documentation

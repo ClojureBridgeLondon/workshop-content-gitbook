@@ -1,6 +1,6 @@
 ![ClojureBridge - London Clojurians](/images/clojurebridge-london-clojurians-banner-abby-remix.png)
 
-Welcome to ClojureBride London, a community driven event that provides a safe space for learning, supporting people under represented in the software industry.
+Welcome to ClojureBridge London, a community driven event that provides a safe space for learning, supporting people under represented in the software industry.
 
 Following this workshop will give you your first taste of Functional Programming with the Clojure programming language.  We hope you continue your experiences with other [London Clojurians](http://londonclojurians.org) community events.
 

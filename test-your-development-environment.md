@@ -1,4 +1,18 @@
-# Test your development environment
+# Setup & Test your development environment
+
+We recommend [setting up LightTable on your computer](https://github.com/ClojureBridgeLondon/curriculum/blob/gh-pages/outline/setup.md)
+
+------------------------------------------
+
+> #### Note::Run the WelcomeToClojureBridge project
+> Once your Clojure environment is setup, open the `welcometoclojurebridge` project, as in the [setup guide](https://github.com/ClojureBridgeLondon/curriculum/blob/gh-pages/outline/setup.md)
+```bash
+git clone https://github.com/ClojureBridge/welcometoclojurebridge
+cd welcometoclojurebridge
+lein repl
+```
+
+------------------------------------------
 
 > #### Note::Create a project & open the code
 > Use the Clojure build tool called Leiningen to create a new project
@@ -7,19 +21,7 @@ lein new playground
 ```
 > In your Clojure editor, open the file: `src/playground/core.clj`
 
+------------------------------------------
 
-## Run the REPL
-
-> ####Hint::What is the REPL?
-> The REPL is a tool that runs your code and returns results.  More details later, in the section: [what is a repl?](introducing-clojure/what-is-a-repl.html)
-
-To run your code we use a tool called the REPL (Read, Evaluate, Print, Loop).  Check you can run your code using the repl with one of these methods
-
-* On the command line with [lein repl]
-* LightTable
-* Atom / Protorepl
-* Spacemacs
-* IntelliJ / Cursive
-* Microsoft Code
-
-> ####TODO:: Links to starting REPL instructions for each option
+> #### Hint::You are ready for Saturday
+> Once the above tasks are complete, you are ready for Saturday
