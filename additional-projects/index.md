@@ -1,14 +1,13 @@
 # Additional Projects
 
-Try out the basics of Clojure you have learnt so far by trying one of the following projects
+Some guided projects that help you apply many of the ideas learned in the workshop.
 
-#### Graphics with Quil
-* [Snowflakes](https://github.com/ClojureBridge/drawing/blob/master/curriculum/create-something.md) Animation
-* [Land of Quil](http://landofquil.we-do-fp.berlin/) Several Quil examples you can try out
+* [Most common word](https://clojurebridgelondon.github.io/community-docs/docs/curriculum/most-common-word) - find the most common word in a book (not including common English language words, like 'the')
+* [Celebrity Name Smash](celebrity-name-smash.html) - string manipulation: subs count, take, str, lazy sequence, apply, reduce
+* [Clacks messages](clacks-messages.html) - simple encoding & decoding of messages, thinking about data structures: maps (key value pairs), get, map reduce  (extension of the map reduce sandwich)
 
 
-#### Other applications
-* [Twinkle Twinkle Little Star](https://github.com/ClojureBridge/tones/blob/master/curriculum/01-piano-chords.md) Making sounds with Overtone
-* [Global Growth](https://github.com/ClojureBridge/global-growth) Web app with REST api
-* [Caesar Cipher](http://clojurebridge.github.io/community-docs/docs/exercises/caesar-cipher/) Mini exercise of Strings and Characters
-* [Turtles Walk](https://github.com/ClojureBridge/welcometoclojurebridge/blob/master/outline/TURTLE-SAMPLES.md) More function study
+## Bigger projects
+
+### Clojure web apps
+* [Practicalli, Clojure WebApps](http://practicalli.github.io/clojure-webapps/) - Serverside web application with Ring, Compojure and PostgresQL database
