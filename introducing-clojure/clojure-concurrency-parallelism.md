@@ -8,7 +8,7 @@ Clojure was created to help manage the complexity of concurrency.
 
 ## Complexity in Concurrency
 
-Lets assume 5 friends have move into a house and each has a bed to make.  Which is the more complex way to organise this?
+Let's assume 5 friends have moved into a house and each has a bed to make.  Which is the more complex way to organise this?
 
 * 5 people assembling one bed at the same time
 * each person assembling their own bed

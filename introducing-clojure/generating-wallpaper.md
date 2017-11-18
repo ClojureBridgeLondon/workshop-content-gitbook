@@ -51,7 +51,7 @@ the side of the square named side
 <canvas class="canvas" id="canvas-1"></canvas>
 
 
-<p>The cool thing about this algorithm is that when we modify the side of the square, we get a completly different pattern:</p>
+<p>The cool thing about this algorithm is that when we modify the side of the square, we get a completely different pattern:</p>
 
 <pre class="language-klipse" 
            data-preamble="
@@ -91,7 +91,7 @@ the side of the square named side
 
 
 
-<p>Again, when we modify the side of the square, we get a completly different pattern:</p>
+<p>Again, when we modify the side of the square, we get a completely different pattern:</p>
 
 <pre class="language-klipse" data-preamble="(def canvas (js/document.getElementById &quot;canvas-4&quot;)) (reset-canvas! canvas)" data-eval-idle-msec="500"><code>
 (draw-color-wallpaper! canvas 5 7 57)
@@ -101,7 +101,7 @@ the side of the square named side
 
 <h2 id="grand-finale">Grand Finale</h2>
 
-<p>Someone in <a href="https://www.reddit.com/r/Clojure/comments/67amvu/turing_omnibus_1_algorithm_for_generating/dgqn8t0/">reddit</a> suggested to loop over the value of <code class="highlighter-rouge">side</code> in order to watch all the generated wallpapers like a movie.</p>
+<p>Someone in <a href="https://www.reddit.com/r/Clojure/comments/67amvu/turing_omnibus_1_algorithm_for_generating/dgqn8t0/">reddit</a> suggested looping over the value of <code class="highlighter-rouge">side</code> in order to watch all the generated wallpapers like a movie.</p>
 
 <p>Here is the result:</p>
 

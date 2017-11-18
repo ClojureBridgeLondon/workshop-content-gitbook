@@ -10,11 +10,11 @@
 
 Clojure can be used to generate and manipulate [Scalable Vector Graphics (SVG)](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics).
 
-SVG images are _drawn_ from a collection of points and paths and images do not loose any quality when making them larger or smaller.  Using SVG images for the web and responsive design is highly recommended.
+SVG images are _drawn_ from a collection of points and paths and images do not lose any quality when making them larger or smaller.  Using SVG images for the web and responsive design is highly recommended.
 
 ## An SVG image (using reagent)
 
-This example of an SVG images is made from:
+This example of an SVG image is made from:
 
 * a white background
 * a green circle and a smaller blue circle

@@ -5,14 +5,14 @@ A quick guide to using this workshop.
 
 ## Navigating the workshop
 
-The pages in the workshop can be navigated using the left hand menu.  To move a page forwards or backwards use the right or left arrow keys, or press the arrows at the side of each page (or bottom of the page if on a small display).
+The pages in the workshop can be navigated using the left-hand menu.  To move a page forwards or backwards use the right or left arrow keys, or press the arrows at the side of each page (or bottom of the page if on a small display).
 
 ![Navigate with arrow keys](/images/navigation-arrow-keys.png)
 
 
 ### Evaluating Clojure
 
-You can try out Clojure code directly in the pages of this workshop.  The code boxes below allow you to edit the code in the top of the box, with the results evaluated automatically and updating in the results in the bottom of the box.
+You can try out Clojure code directly in the pages of this workshop.  The code boxes below allow you to edit the code in the top of the box, with the results evaluated automatically and updated in the results in the bottom of the box.
 
 
 ```eval-clojure
@@ -27,7 +27,7 @@ These code boxes are powered by a ClojureScript library called [Klipse]().
 > #### Hint::Klipse Hints
 > Alternatively you may use [Klipse as a stand-alone editor](http://app.klipse.tech/?eval_only=1) or as [a stand-alone editor with Javascript output](http://app.klipse.tech/)
 >
-> Klipse can evaluate code from a public [Github Gists](https://gist/github.com)
+> Klipse can evaluate code from a public [Github Gists](https://gist.github.com/)
 
 ### Exercises
 

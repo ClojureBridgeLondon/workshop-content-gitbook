@@ -13,7 +13,7 @@
 
 <!--sec data-title="Parentheses ()" data-id="answer001" data-collapse=true ces-->
 
- Parentheses `( )` are a list in Clojure. A left parenthesis is the start of the list and needs a matchin right parenthesis or you will get an error.
+ Parentheses `( )` are a list in Clojure. A left parenthesis is the start of the list and needs a matching right parenthesis or you will get an error.
 
  It is quite common in Clojure code to have many nested parentheses
 
@@ -41,7 +41,7 @@ Clojure functions always return a value.
 
 <!--sec data-title="Arguments" data-id="answer003" data-collapse=true ces-->
 
-Many functions take in _arguments_ which are everything else inside the enclosing parentheses after the function-.
+Many functions take in _arguments_ which are everything else inside the enclosing parentheses after the function.
 
 `print-str` takes "Hello, World!" and returns a string.
 
