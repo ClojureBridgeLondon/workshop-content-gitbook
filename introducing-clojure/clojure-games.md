@@ -1,6 +1,10 @@
 ## Games
 
-* [Flappy Bird game in ClojureScript](https://www.youtube.com/watch?v=KZjFVdU8VLI)
+The Classic Flappy Birds game, written in ClojureScript
+
+{% youtube %}
+"https://youtu.be/KZjFVdU8VLI"
+{% endyoutube %}
 
 
 ## [Play.cljs](https://github.com/oakes/play-cljs)
