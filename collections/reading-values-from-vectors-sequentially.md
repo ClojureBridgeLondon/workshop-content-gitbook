@@ -17,6 +17,17 @@ You can also combine these functions, so the results of one function call can be
 ()
 ```
 
+<!--sec data-title="Reveal answer..." data-id="answer002" data-collapse=true ces-->
+
+```clojure
+
+(first (second ["Birthdays are" "full of" "presents" "that you" "always dreamd" "of having"]))
+
+```
+
+<!--endsec-->
+
+
 ------------------------------------------
 
 > #### Hint::

@@ -34,6 +34,21 @@ Take your name and the name of another student in the group and create a combine
 ;;
 ;; => ["Ada" "Lovelace" "Anne-Marie" "Imafidon"]
 ```
+
+In JavaScript the above gives a rather messy output of nested collections.
+
+Mapping over the student collection gives cleaner return value
+
+```clojure
+(map #(clojure.string/split % #" ") students)
+```
+
+We can also flatten the result to make it look nicer
+
+```clojure
+(flatten (map #(clojure.string/split % #" ") students))
+```
+
 <!--endsec-->
 
 

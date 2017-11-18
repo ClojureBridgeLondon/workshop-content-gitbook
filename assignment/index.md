@@ -1,4 +1,4 @@
-# Assignment with `def`
+# Assigning names to values
 
 Rather than type the same values many times in our code, we can give them a name to refer to them. This is called assignment.
 

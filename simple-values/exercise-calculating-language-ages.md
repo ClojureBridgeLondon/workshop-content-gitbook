@@ -37,10 +37,39 @@ As there are two values the same, we could also calculate the total as follows
 
 
 > #### Note::Average age of programming languages
-> Calculate the average age of the 8 programming languages
+> Calculate the average age of the 10 programming languages
 ```eval-clojure
 ()
 ```
+
+------------------------------------------
+
+> #### Hint::Counting values
+> You can simply divide the total age of all languages by 10.
+>
+> If you want to try something more advanced, then you can count the number of languages is to put them in a collection, eg.
+> `[10 27  26  21 22 22 45 34 59 60]`
+i>
+> The `count` function will tell you how many things are in a collection
+
+
+<!--sec data-title="Reveal answer..." data-id="answer002" data-collapse=true ces-->
+
+We first add up the ages of all the language ages.  Then we divide that total age with the number of languages
+
+```clojure
+(/ (+ 10 27 26  21 22 22 45 34 59 60) 10)
+```
+
+In a more advance clojure way we can also do
+
+```clojure
+(/ (+ 10 27 26  21 22 22 45 34 59 60)
+   (count [10 27 26  21 22 22 45 34 59 60]))
+```
+
+<!--endsec-->
+
 
 ------------------------------------------
 
@@ -48,3 +77,11 @@ As there are two values the same, we could also calculate the total as follows
 ```eval-clojure
 ()
 ```
+
+<!--sec data-title="Reveal answer..." data-id="answer003" data-collapse=true ces-->
+
+```clojure
+(first (sort [10 27  26  21 22 22 45 34 59 60]))
+```
+
+<!--endsec-->

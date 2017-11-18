@@ -16,13 +16,13 @@ In the last example a backslash, `\`, is used to allow us to put special charact
 
 ## Working with strings
 
-There are many functions that work with strings
+There are many functions that work with strings, especially in the `clojure.string` library
 
-* [str](https://clojuredocs.org/clojure.core/str) - join values into a string
-* [split](https://clojuredocs.org/clojure.string/split) - split a string based on a pattern (regex)
-* [subs](https://clojuredocs.org/clojure.core/subs) - get part of a string
-* [replace](https://clojuredocs.org/clojure.string/replace) - replace part of the string based on a pattern (regex)
-* [includes?](https://clojuredocs.org/clojure.string/includes_q) - does a string include another string (true or false)
+* [clojure.string/str](https://clojuredocs.org/clojure.core/str) - join values into a string
+* [clojure.string/split](https://clojuredocs.org/clojure.string/split) - split a string based on a pattern (regex)
+* [clojure.string/subs](https://clojuredocs.org/clojure.core/subs) - get part of a string
+* [clojure.string/replace](https://clojuredocs.org/clojure.string/replace) - replace part of the string based on a pattern (regex)
+* [clojure.string/includes?](https://clojuredocs.org/clojure.string/includes_q) - does a string include another string (true or false)
 
 
 > #### Note::Create a String of favourite colours
@@ -30,6 +30,19 @@ There are many functions that work with strings
 ```eval-clojure
 ()
 ```
+
+<!--sec data-title="Reveal answer..." data-id="answer001" data-collapse=true ces-->
+
+```clojure
+;; Just simply use a string
+"I love purple"
+
+;; Using a function you can create a string and join values to create a string
+(str "I love the colour " "purple")
+```
+
+<!--endsec-->
+
 
 ------------------------------------------
 
@@ -40,6 +53,15 @@ There are many functions that work with strings
 ```eval-clojure
 ()
 ```
+
+
+<!--sec data-title="Reveal answer..." data-id="answer002" data-collapse=true ces-->
+
+```clojure
+(clojure.string/includes? "Richard of York gave brown bread in vans" "brown")
+```
+<!--endsec-->
+
 
 ------------------------------------------
 

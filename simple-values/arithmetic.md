@@ -28,3 +28,10 @@ Look at these examples of Clojure code and their equivalent math expression:
 ```eval-clojure
 (* 22/7 7)
 ```
+
+------------------------------------------
+
+> #### Info::
+> Ratio types are not supported in the web browser REPL above, however, they will work in your editor
+>
+> Unfortunately JavaScript does not have anyway to support the Clojure ratio type.
