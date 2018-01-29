@@ -2,11 +2,8 @@
 
 * [ClojureBridge London](introduction.md)
     * [Using this workshop](using-this-workshop.md)
-* [Preparing for the Workshop](prepare-for-the-workshop.md)
-    * [Test your development environment](test-your-development-environment.md)
-* [What is a REPL](introducing-clojure/what-is-a-repl.md)
-    * [Klipse web-based REPL](introducing-clojure/klipse-web-based-repl.md)
 * [Introducing Clojure](introducing-clojure/index.md)
+    * [Coding in the REPL](introducing-clojure/coding-in-the-repl.md)
     * [Who uses Clojure](introducing-clojure/who-uses-clojure.md)
     * [Creative Arts](introducing-clojure/clojure-creative-arts.md)
         * [Generate HTML with Hiccup](introducing-clojure/generate-html-from-hiccup.md)
@@ -14,6 +11,8 @@
         * [Generating Wallpaper](introducing-clojure/generating-wallpaper.md)
         * [2D Games](introducing-clojure/clojure-games.md)
     * [What does Clojure look like?](introducing-clojure/what-does-clojure-look-like.md)
+* [Preparing for the Workshop](prepare-for-the-workshop.md)
+    * [Test your development environment](test-your-development-environment.md)
 * [Getting Help](introducing-clojure/getting-help.md)
 
 ## Saturday workshop
