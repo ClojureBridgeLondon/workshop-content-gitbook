@@ -19,10 +19,27 @@ You can also combine these functions, so the results of one function call can be
 
 <!--sec data-title="Reveal answer..." data-id="answer002" data-collapse=true ces-->
 
+We want the returned answer to be "presents" and there are several ways we could do this
+
+We can call one function and use its return value as an argument to another function.
+
 ```clojure
+;; rest function returns all values but the first one.
+;; the returned values then has the
+(second
+  (rest
+    ["Birthdays are" "full of" "presents" "that you" "always dreamd" "of having"]))
+```
 
-(first (second ["Birthdays are" "full of" "presents" "that you" "always dreamd" "of having"]))
+We can also use a local name to hold some of the values in the collection and then use that name to get the right answer.
 
+
+```clojure
+;; the let function assignes a name to our collection of values
+;; then we get the value in third place by using the name.
+(let [my-values ["Birthdays are" "full of" "presents"
+              "that you" "always dreamd" "of having"]]
+      (second (rest my-values)))
 ```
 
 <!--endsec-->
