@@ -17,6 +17,8 @@ Clojure is 10 years old this year (2017), so its age can be represented as `10`
 > * Lisp (59 years)
 > * Fortran (60 years)
 >
+> You can copy the list of years here as a convienience
+> `10 27 26 21 22 22 45 34 59 60`
 ```eval-clojure
 ()
 ```
@@ -49,7 +51,7 @@ As there are two values the same, we could also calculate the total as follows
 >
 > If you want to try something more advanced, then you can count the number of languages is to put them in a collection, eg.
 > `[10 27  26  21 22 22 45 34 59 60]`
-i>
+>
 > The `count` function will tell you how many things are in a collection
 
 

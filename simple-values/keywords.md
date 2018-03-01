@@ -2,7 +2,7 @@
 
 Keywords are the strangest of the basic value types, they don’t have a real world analog like numbers, strings, or booleans.
 
-For now you can think of them as a special type of string, but has more super powers that we will cover in maps.
+For now you can think of them as a special type of string, but has super powers when used with maps.
 
 
 ```clojure
@@ -22,4 +22,4 @@ For now you can think of them as a special type of string, but has more super po
 <hr />
 
 > #### Hint::
-> Keywords should make more sense when we start looking at the `map` data structure in Clojure
+> Keywords should make more sense when as we start looking at the `map` data structure in Clojure
