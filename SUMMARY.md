@@ -47,7 +47,7 @@
         * [Map Extraction with keys & vals](collections/map-extraction-keys-vals.md)
     * [Collection of Collections](collections/collection-of-collections.md)
     * [Exercise: Model People](collections/exercise-model-people.md)
-* [Functions](functions/index.md)
+* [Level 4 - Functions](functions/index.md)
     * [Defining Functions](functions/defining-functions.md)
     * [Local Assignment with let](functions/local-assignment-with-let.md)
     * [Exercise: Name Smash](functions/name-smash.md)
@@ -65,7 +65,8 @@
     * [Theory: Simplicity with Pure Functions](functions/pure-functions.md)
         * [Pure function examples](functions/pure-function-examples.md)
         * [Impure function examples](functions/impure-function-examples.md)
-* [Flow Control & Logic](flow-control-logic/index.md)
+* [Level 5 - Flow Control & Logic](flow-control-logic/index.md)
+    * [Boolean values](simple-values/boolean.md)
     * [if](flow-control-logic/if.md)
     * [truthiness](flow-control-logic/truthiness.md)
     * [Exercise: positions](flow-control-logic/exercise-positions.md)
@@ -73,7 +74,7 @@
     * [cond](flow-control-logic/cond.md)
     * [Exercise: Temperature conversion](flow-control-logic/exercise-temperature-conversion.md)
     * [Theory: Boolean Logic](flow-control-logic/boolean-logic.md)
-* [Iteration](iteration/index.md)
+* [Level 6 - Iteration](iteration/index.md)
     * [Exercise: Combination Lock](iteration/exercise-combination-lock.md)
 
 ## Challenges and Projects
