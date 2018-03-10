@@ -12,7 +12,8 @@
         * [2D Games](introducing-clojure/clojure-games.md)
     * [What does Clojure look like?](introducing-clojure/what-does-clojure-look-like.md)
 * [Preparing for the Workshop](prepare-for-the-workshop.md)
-    * [Test your development environment](test-your-development-environment.md)
+    * [Optional: Clojure development tools](development-tools/index.md)
+        * [Test your development environment](development-tools/test-your-development-tools.md)
 * [Getting Help](introducing-clojure/getting-help.md)
 
 ## Saturday workshop
