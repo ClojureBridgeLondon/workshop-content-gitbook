@@ -1,8 +1,6 @@
 # Simple Arithmetic: Calculating Ages of programming languages
 
-
 Clojure is 10 years old this year (2017), so its age can be represented as `10`
-
 
 > #### Note::How many years of programming?
 > What is the total number of years from all the following languages
@@ -76,6 +74,10 @@ In a more advance clojure way we can also do
 ------------------------------------------
 
 > #### Note::Find the age of the youngest programming language
+> How could you find the smallest number?
+>
+> The ages are not in order, so you cant just get the first value
+
 ```eval-clojure
 ()
 ```
@@ -83,7 +85,10 @@ In a more advance clojure way we can also do
 <!--sec data-title="Reveal answer..." data-id="answer003" data-collapse=true ces-->
 
 ```clojure
-(first (sort [10 27  26  21 22 22 45 34 59 60]))
+(first (sort [10 27 26 21 22 22 45 34 59 60]))
 ```
+
+A more advanced approach (we cover in the [functions](/functions/) section) would be to use [map](https://clojuredocs.org/clojure.core/map) to call the [min](https://clojuredocs.org/clojure.core/min) function on each element of the collection.
+
 
 <!--endsec-->

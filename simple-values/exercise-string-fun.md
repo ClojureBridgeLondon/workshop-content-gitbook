@@ -3,7 +3,7 @@
 Let do a simple challenge using strings.
 
 > #### Note::Simple Palendrome Checker
-> A [Palendrome](https://en.wikipedia.org/wiki/Palindrome) is a word that is spelt the same whether it is written backwards or forwards.  So when you _reverse_ the word it should still look the same.
+> A [Palindrome](https://en.wikipedia.org/wiki/Palindrome) is a word that is spelt the same whether it is written backwards or forwards.  So when you _reverse_ the word it should still look the same.
 > Can you write a simple expression to see if a word is a palendrome.
 ```eval-clojure
 ()
@@ -13,7 +13,8 @@ Let do a simple challenge using strings.
 
 > #### Hint::Clojure.string library
 > The `clojure.string` library has some handy functions for manipulating strings.  Try searching for this library with your favourite browser.
-
+>
+> If you use functions that are not part of the `clojure.string` library, you may get some unexpected results.
 
 <!--sec data-title="Reveal answer..." data-id="answer001" data-collapse=true ces-->
 
