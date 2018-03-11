@@ -6,10 +6,11 @@
 
 ## Saving your code in repl.it
 
-[repl.it](https://repl.it/) is a Cloud development environment.  If you [create a free account](https://repl.it/signup) you can save code you write to solve challenges from the ClojureBridge London workshop.
+[repl.it](https://repl.it/) is a Cloud development environment.  [Create a free account](https://repl.it/signup) to save the code you write to solve challenges from the ClojureBridge London workshop.
 
 ![repl.it Clojure Cloud development environment](/images/replit-clojure-example.png)
 
-repl.it also lets you share your code (and the REPL) so anyone can experiment with you code.
+
+repl.it also lets you share your code with other students (or anyone else) via a simple repl.it link.  The link presents your code in a REPL so those you share with can easily run your code and experiment with it.
 
 ![repl.it Clojure Cloud development environment](/images/replit-clojure-share.png)
