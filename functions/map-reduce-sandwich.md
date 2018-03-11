@@ -11,6 +11,15 @@ A common pattern when manipulating lots of data can be described using the Map-R
 ()
 ```
 
+---
+
+> ####Hint::
+> You could have a collection of strings, each string represents an ingredients.
+>
+> Then you could slice the ingredient by adding the string "sliced" to each ingredient.
+>
+> You could then reduce each "sliced ingredient" into a sandwich
+
 <!--sec data-title="Reveal answer..." data-id="answer00" data-collapse=true ces-->
 
 
