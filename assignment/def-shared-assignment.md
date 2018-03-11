@@ -4,6 +4,7 @@
 ```clojure
 (def mangoes 3)
 (def sally "Hello, I am Sally and I think Clojure is lots of fun")
+(def total (+ 1 2 3 4 5))
 ```
 
 > #### Note::Assign your name to your favourite thing
@@ -30,6 +31,7 @@ You can also assign the results of functions to symbols, which is very useful fo
 > Create a `def` function for each type of fruit (eg. mangoes, apples, oranges).
 >
 > Create another `def` that adds up the total number of fruit
+
 > Create another `def` that is the average number of fruit
 ```eval-clojure
 ()
@@ -39,16 +41,19 @@ You can also assign the results of functions to symbols, which is very useful fo
 
  <!--sec data-title="Reveal answer..." data-id="answer001" data-collapse=true ces-->
 
-Ask your group leader if you get stuck
-
-An answer to the favorite things exercise
+We can use `def` to give a name to something we already know, like a string
 
 ```clojure
 (def jenny-loves "Jenny loves rubarb crumble and vanilla custard")
 ```
 
+We can also use `def` to give a name to something we dont know yet, eg. a calculation.
 
-Answer to the Fruits exercies
+In the following example, we use `def` to give names to the number of each type of fruit.
+
+Then we use a `def` to define the name `total-fruit` and calculating the sum of mangoes and oranges.
+
+We also use a `def` to define the name average-fruit-amount with the result of another calculation.
 
 ```clojure
 (def mangoes 4)
