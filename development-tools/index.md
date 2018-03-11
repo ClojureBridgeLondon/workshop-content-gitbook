@@ -1,9 +1,9 @@
-# Development Tools for Clojure
+# Optional: Development Tools for Clojure
 
 If you want to continue your Clojure journey after ClojureBridge London, our coaches can help you set up a Clojure environment on your laptop.
 
 > ####Hint::Our coaches can help you set up Clojure tools
-> We have [general instructions on installing development tools](development-environment/) for Linux, MacOSX and Windows.
+> We have [general instructions on installing development tools](/development-environment/) for Linux, MacOSX and Windows.
 >
 > If something is not clear or does not work, don't hesitate to ask a coach.
 
