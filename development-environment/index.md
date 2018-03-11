@@ -1,18 +1,16 @@
-# Development Tools for Clojure
+# Clojure development environment guides
 
-If you want to continue your Clojure journey after ClojureBridge London, our coaches can help you set up a Clojure environment on your laptop.
+If you wish to continue discovering Clojure after the ClojureBridge London event, we can help you set up development tools on your laptop.
 
-> ####Hint::Our coaches can help you set up Clojure tools
-> We have [general instructions on installing development tools](development-environment/) for Linux, MacOSX and Windows.
->
-> If something is not clear or does not work, don't hesitate to ask a coach.
+You will need:
 
+* **Java standard edition (SE)** - Clojure runs on top of Java.  The Java Runtime Enviromment (JRE) is needed to run Clojure .
+* **Leiningen** - a tool for running Clojure programs, also creating & managing Clojure projects
+* **Git** - versioning your Clojure code (so you can go back to earlier versions if you make a mistake)
+* **A Clojure aware Editor** - one of several editor choices that support the Clojure programming language
 
-A typical Clojure environment consists of:
-
-* Java - usually installed on laptops by default
-* Leiningen - for creating and running Clojure projects
-* A Clojure aware editor
+> #### Hint::
+> If you just wish to save your code, you can use any editor you prefer or paste it into [Github gists](https://gist.github.com/)
 
 
 ## Clojure aware editors
@@ -26,18 +24,6 @@ There are several editors that support Clojure development:
 * [IntelliJ & Cursive](https://cursive-ide.com/userguide/) - typically used by Java developers
 * [Microsoft Code](https://code.visualstudio.com/) with [clojureVScode](https://marketplace.visualstudio.com/items?itemName=avli.clojure) or [Clojure Code](https://marketplace.visualstudio.com/items?itemName=jamesnorton.continuum) plugins
 
+
 > #### Hint::
 > If you are new to development of any kind, then we suggest [LightTable](https://github.com/ClojureBridgeLondon/curriculum/blob/gh-pages/outline/setup.md)
-
-
-## Create a project to save your code
-
-To save the code you write for examples, we suggest using Leiningen (the Clojure build tool) to create a new project.
-
-Once Leiningen is installed, run the following command in a terminal to create a new project.
-
-```bash
-lein new playground
-```
-
-In your Clojure editor, open the file: `playground/src/playground/core.clj`
