@@ -1,4 +1,4 @@
-# Coding in the Clojure REPL
+# Fun - Coding in the Clojure REPL
 
 Clojure gives you fast feedback as you develop your code, thanks to the Clojure REPL.
 

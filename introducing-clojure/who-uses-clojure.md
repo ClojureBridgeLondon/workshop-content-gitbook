@@ -1,6 +1,15 @@
-# Who Uses Clojure
+# Powerful - Many uses of Clojure
 
 There are many companies using Clojure as either their main development language or for building specific applications and services.  Here are just a few examples from the UK.  Further examples are discussed in the [Clojure in... series by JUXT](https://juxt.pro/clojure-in.html)
+
+
+![Walmart logo - new](/images/Walmart-logo-new.jpg)
+
+Walmart are one of the largest retailers across the United States of America.  Every single sale they make is managed by a system written in Clojure.
+
+In just one day they had a record 133 Million people buying over $50 Million worth of products across 5,000 physical stores and the online store.
+
+[Further reading: Walmart runs Clojure at Scale](http://blog.cognitect.com/blog/2015/6/30/walmart-runs-clojure-at-scale)
 
 ------------------------------------------
 
