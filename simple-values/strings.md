@@ -1,67 +1,42 @@
 # Strings
 
-A string is any numbers, letters or special characters surrounded with double quotation marks, `""`.
+A [String](http://clojurebridge.github.io/community-docs/docs/clojure/string/) can contain any simple value such as numbers, letters or special characters.
 
-* Reference: [String](http://clojurebridge.github.io/community-docs/docs/clojure/string/)
+A string is surrounded with double quotation marks, `""`.
+
+Strings are used a lot for content (e.g. blogs), user interfaces (e.g. menus) as well any other simple data (e.g. names, email addresses).
 
 ## Example strings
 
 ```clojure
+;; writing a string.  A string just evaluates to itself.
 "Hello, World!"
-"This is a longer string that I wrote for purposes of an example."
-"Aubrey said, \"I think we should go to the Orange Julius.\""
-```
 
-In the last example a backslash, `\`, is used to allow us to put special characters inside a string.
+;; create a string from other strings and numbers with the str function
+(str "It's lunchtime in"
+     " "
+     1
+     " "
+     "hour" )
+
+;; Strings can include special characters if you put the `\` charater before them
+(str "I am a"
+     " "
+     "\'functional \'"
+     " "
+     "programmer")
+```
 
 ## Working with strings
 
 There are many functions that work with strings, especially in the `clojure.string` library
 
-* [clojure.string/str](https://clojuredocs.org/clojure.core/str) - join values into a string
-* [clojure.string/split](https://clojuredocs.org/clojure.string/split) - split a string based on a pattern (regex)
-* [clojure.string/subs](https://clojuredocs.org/clojure.core/subs) - get part of a string
-* [clojure.string/replace](https://clojuredocs.org/clojure.string/replace) - replace part of the string based on a pattern (regex)
-* [clojure.string/includes?](https://clojuredocs.org/clojure.string/includes_q) - does a string include another string (true or false)
+* [`str`](https://clojuredocs.org/clojure.core/str) - join values into a string
 
-
-> #### Note::Create a String of favourite colours
-> Use a function to create one string containing the names and favourite colours of each person in the group
-```eval-clojure
-()
-```
-
-<!--sec data-title="Reveal answer..." data-id="answer001" data-collapse=true ces-->
-
-```clojure
-;; Just simply use a string
-"I love purple"
-
-;; Using a function you can create a string and join values to create a string
-(str "I love the colour " "purple")
-```
-
-<!--endsec-->
-
-
-------------------------------------------
-
-> #### Note::Does the string contain your favorite colour
-> Use one of the functions above to see if a string contains a colour
->
-> For example, does the string "Richard of York gave brown bread in vans" contain the colour brown
-```eval-clojure
-()
-```
-
-
-<!--sec data-title="Reveal answer..." data-id="answer002" data-collapse=true ces-->
-
-```clojure
-(clojure.string/includes? "Richard of York gave brown bread in vans" "brown")
-```
-<!--endsec-->
-
+* [`clojure.string/includes?`](https://clojuredocs.org/clojure.string/includes_q) - does a string include another string (returns true or false)
+* [`clojure.string/replace`](https://clojuredocs.org/clojure.string/replace) - replace part of the string with a different string
+* [`clojure.string/split`](https://clojuredocs.org/clojure.string/split) - split a string based on amatching pattern (regex)
+* [`clojure.string/subs`](https://clojuredocs.org/clojure.core/subs) - get part of a string
 
 ------------------------------------------
 

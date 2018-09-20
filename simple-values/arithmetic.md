@@ -7,8 +7,6 @@ Computers were designed to run lots of calculations, so its easy to do maths.  Y
 * `*` multiply numbers together
 * `/` divide numbers
 
-In Clojure, math expressions looks a little different to when you write it out with pen and paper.
-
 Look at these examples of Clojure code and their equivalent math expression:
 
 ```clojure
@@ -23,15 +21,9 @@ Look at these examples of Clojure code and their equivalent math expression:
 (/ 27/2 1.5)  ;=> 9.0
 ```
 
-> #### Note::Evaluate some arithmetic expressions in the REPL
-> Type some arithmetic expressions into the REPL to see what is returned
-```eval-clojure
-(* 22/7 7)
-```
+Math looks a little different in Clojure because `+`, `-`, `*`, `/` are functions, which take numbers as arguments.
 
 ------------------------------------------
 
 > #### Info::
-> Ratio types are not supported in the web browser REPL above, however, they will work in your editor
->
-> Unfortunately JavaScript does not have anyway to support the Clojure ratio type.
+> The ClojureScript REPL in this web page does not return values as a Ratio type.  ClojureScript is compiled into JavaScript which does not support a Ratio type.
