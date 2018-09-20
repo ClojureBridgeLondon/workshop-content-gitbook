@@ -30,3 +30,10 @@ Again, the [`clojure.string`](https://clojuredocs.org/clojure.string) library he
 <!--endsec-->
 
 ------------------------------------------
+
+> ####Hint::The [`clojure.string`](https://clojuredocs.org/clojure.string)`clojure.string` library
+> Remember that there are specific functions you can use in the `clojure.string` library
+* [clojure.string/split](https://clojuredocs.org/clojure.string/split) - split a string based on a pattern (regex)
+* [clojure.string/subs](https://clojuredocs.org/clojure.core/subs) - get part of a string
+* [clojure.string/replace](https://clojuredocs.org/clojure.string/replace) - replace part of the string based on a pattern (regex)
+* [clojure.string/includes?](https://clojuredocs.org/clojure.string/includes_q) - does a string include another string (true or false)
