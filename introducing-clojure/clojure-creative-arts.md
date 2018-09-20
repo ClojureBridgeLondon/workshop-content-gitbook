@@ -3,11 +3,13 @@
 ## Music
 
 * [Klangmeister](https://ctford.github.io/klangmeister/) - design synthesisers and compose music using Clojure in a live coding environment in the browser
-* Overtone - explore new musical ideas from synthesis and sampling to instrument building within a collaborative jamming live-coding environment. Combines the powerful [SuperCollider audio engine](http://supercollider.github.io/) with Clojure
-    * [Ed Sheeran "Shape Of You" remake with Clojure and Overtone](https://www.youtube.com/watch?v=r8YKC7Qugm8)
+* [Overtone](http://overtone.github.io/) - explore new musical ideas from synthesis and sampling to instrument building within a collaborative jamming live-coding environment. Combines the powerful [SuperCollider audio engine](http://supercollider.github.io/) with Clojure
     * MetaX - [Hack Your Own Band With Clojure and Overtone](https://www.youtube.com/watch?v=qUU7WeUiR5o#t=51m44s)
     * [Chris Ford - Creating music with Clojure and Overtone](https://www.youtube.com/watch?v=RYZeQ6t_5SA#t55m.18s)
 
+{% youtube %}
+https://www.youtube.com/watch?v=r8YKC7Qugm8)
+{% endyoutube %}
 
 ## Graphics
 

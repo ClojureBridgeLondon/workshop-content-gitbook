@@ -3,6 +3,18 @@
 There are many companies using Clojure as either their main development language or for building specific applications and services.  Here are just a few examples from the UK.  Further examples are discussed in the [Clojure in... series by JUXT](https://juxt.pro/clojure-in.html)
 
 
+![Funding Cirlce logo](/images/funding-circle-logo.png)
+
+[Funding Circle](https://www.fundingcircle.com/) is a high profile peer-to-peer lending marketplace that allows investors to lend money directly to small and medium-sized businesses. It is built on a big idea: "To revolutionise the outdated banking system and secure a better deal for everyone".
+
+The business is now global lending huge amounts of money in various countries. In order to carry doing this successfully and to grow further, they need their technology to be streamlined and efficient.
+
+They originally used Ruby throughout, but now they have over 40 Clojure developers spread across multiple countries including the US and the UK.
+
+Clojure is used extensively for the performance sensitive back-end services, for example making decisions on who to give loans to, the accounting system, and the handling of interactions with the upstream banks.
+
+------------------------------------------
+
 ![Walmart logo - new](/images/Walmart-logo-new.jpg)
 
 Walmart are one of the largest retailers across the United States of America.  Every single sale they make is managed by a system written in Clojure.
@@ -60,7 +72,7 @@ Metail uses Clojure for their RESTful API services and ClojureScript on the fron
 
 ------------------------------------------
 
-[![Citi Gropu](/images/citi-group-logo.png)](/images/citi-group-logo.png)
+[![Citi Group](/images/citi-group-logo.png)](/images/citi-group-logo.png)
 
 
 Citi Group is the largest financial company in the world employing 220 million people across the world.  Clojure is used for capturing financial information to create a view of financial investment and risk at any point in time.
