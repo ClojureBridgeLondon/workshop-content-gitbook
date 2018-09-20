@@ -1,0 +1,38 @@
+# Exercise: Programming language ages revisited
+
+Lets take the [programming language ages exercise](/simple-values/exercise-age-of-languages.html) and use a collection for the ages.  Does this change how we work with the numbers?
+
+The programming language ages in a vector collection:
+
+`[10 27 26 21 22 22 45 34 59 60]`.
+
+------------------------------------------
+
+> #### Note::Find the age of the youngest programming language
+> How could you find the smallest number?
+>
+> The ages are not in order, so you cant just get the first value.
+>
+> If only the values were sorted...
+```eval-clojure
+()
+```
+
+<!--sec data-title="Reveal answer..." data-id="answer003" data-collapse=true ces-->
+
+```clojure
+(first (sort [10 27 26 21 22 22 45 34 59 60]))
+```
+
+A more functional approach would be to put the ages into a collection.  Then we can use a function called `count` to get the total number of ages.  The total value is then used to divide all the ages by.  The more languages we have, the more useful a collection becomes.
+
+```clojure
+(/ (+ 10 27 26  21 22 22 45 34 59 60)
+   (count [10 27 26  21 22 22 45 34 59 60]))
+```
+
+
+A more advanced approach (we cover in the [functions](/functions/) section) would be to use [map](https://clojuredocs.org/clojure.core/map) to call the [min](https://clojuredocs.org/clojure.core/min) function on each element of the collection.
+
+
+<!--endsec-->
