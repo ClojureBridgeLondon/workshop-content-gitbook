@@ -1,6 +1,6 @@
 # Comments
 
-Comments help to describe the intent of your code.  Why is your code doing what it is doing.
+Comments help to describe the intent of your code.  Why is your code doing what it is doing.  Why did you make the choice to write the code that way.
 
 In Clojure a comment is started by the character: `;`
 
@@ -9,7 +9,7 @@ Clojure ignores any line that starts with `;`, so comments are purely for the de
 When we write code, we try to make it as clear as possible.  This helps others understand what was written quickly.  Sometimes we can do this without comments, sometimes comments are very useful.
 
 > ####Hint::
-> Developers often come back to code they wrote themselves a while ago and realise they have forgotten Why code.
+> Developers often come back to code they wrote themselves a while ago and realise they have forgotten why they wrote the code in a particular way.  Good comments give you contexts to understand why the code was written.
 
 
 
