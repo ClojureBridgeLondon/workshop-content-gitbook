@@ -11,6 +11,11 @@
 https://www.youtube.com/watch?v=r8YKC7Qugm8)
 {% endyoutube %}
 
+## IOT / Lightshows
+
+* [Afterglow](https://github.com/brunchboy/afterglow) live coding for the creation of algorithmic light shows in Clojure using the Open Lighting Architecture, ola-clojure, wayang, beat-link, and pieces of the Overtone toolkit.  See the [presentation from Clojure Madison meetup, 2016](https://www.youtube.com/watch?v=mvNN0SMMZDQ)
+
+
 ## Graphics
 
 Images are just data (numbers) that your application does something visual with.
