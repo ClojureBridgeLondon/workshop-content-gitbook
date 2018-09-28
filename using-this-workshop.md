@@ -48,10 +48,13 @@ Suggested answers are included directly in the workshop in hidden sections.  An 
 
 ```clj
 (defn who-has-the-answer [name])
-  (str "Only " name " have the answer"))
+  (str "Only " name " have the answers, allegedly"))
 
-(who-has-the-answer "Smarties")
+(who-has-the-answers "Smarties")
 ```
+Cultural reference to an [award winning TV advertisement](https://www.youtube.com/watch?v=UA5aLfM9N0E) in 1984 that was created using computer graphics.
+
+We do not endorse that anyone has all the answers :)
 
 <!--endsec-->
 
