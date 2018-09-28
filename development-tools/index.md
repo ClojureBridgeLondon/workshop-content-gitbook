@@ -6,13 +6,12 @@ If you want to continue your Clojure journey after ClojureBridge London, our coa
 > We have [general instructions on installing development tools](/development-environment/) for Linux, MacOSX and Windows.
 >
 > If something is not clear or does not work, don't hesitate to ask a coach.
-
-
-A typical Clojure environment consists of:
-
-* Java - usually installed on laptops by default
-* Leiningen - for creating and running Clojure projects
-* A Clojure aware editor
+>
+> A typical Clojure environment consists of:
+>
+> * Java - usually installed on laptops by default
+> * Leiningen - for creating and running Clojure projects
+> * A Clojure aware editor
 
 
 ## Clojure aware editors
