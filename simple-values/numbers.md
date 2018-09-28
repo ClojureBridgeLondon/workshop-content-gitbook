@@ -4,6 +4,7 @@ Clojure has several different types of numbers.
 
 * Integer - are positive and negative whole numbers, including zero.
 * Float - decimal numbers, like the value for Pi, 3.141
+* Ratio - we know these as fractions, eg 1/3, 22/7
 
 You write them in Clojure just like we do in every day life.
 
@@ -14,6 +15,10 @@ You write them in Clojure just like we do in every day life.
 0.072725
 10.5
 -99.9
+
+;; To maintain precision we can represent fractions, called ratio types
+13/7
+2/3
 ```
 
 Numbers can be used by themselves, although they don't do anything useful alone.  So lets do some maths...
