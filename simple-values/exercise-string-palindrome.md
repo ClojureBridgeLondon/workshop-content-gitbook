@@ -27,13 +27,6 @@ Using a function called `reverse` in the [`clojure.string`](https://clojuredocs.
 (= "radar" (clojure.string/reverse "radar"))
 ```
 
-You could also use the generic `reverse` function, however this returns a list the individual characters in reverse order, rather than reversing the string as a single value.
+You could use the generic `reverse` function in `clojure.core`, however this returns a list the individual characters in reverse order, rather than reversing the string as a single value.
 
-TODO: Move this to the collections section!
-To make this work with the general reverse function you would need to join the individual strings that `reverse` returns back into a single string using `apply` or `reduce`
-
-```clojure
-(= "radar" (apply str (reverse "radar")))
-(= "radar" (reduce str (reverse "radar")))
-```
 <!--endsec-->
