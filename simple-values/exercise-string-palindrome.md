@@ -1,4 +1,4 @@
-# Excercise: Fun with Palindromes
+# Exercise: Fun with Palindromes
 
 These exercises will give you more experience using strings and the [`clojure.string`](https://clojuredocs.org/clojure.string) library.
 
