@@ -51,7 +51,7 @@ Add the following path to the above code to make a curvy lambda symbol
            :d "M 75,75 C 50,90 50,110 35,110"}]
 ```
 
-Or simply replace the code with this complete answer001
+Or simply replace the code with this example
 
 ```clojure
 (defn concentric-circles []
