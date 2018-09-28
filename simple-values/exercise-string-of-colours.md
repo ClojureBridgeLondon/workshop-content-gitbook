@@ -1,7 +1,7 @@
 # Exercise: Strings of colours
 
 > #### Note::A String of favourite colours
-> Create a string containing the names and favourite colours of each person in the group.
+> Create a string containing the names and favourite colours of each person near you.
 >
 > For example: "Our favourite colours are green and purple"
 ```eval-clojure
