@@ -11,3 +11,4 @@ Some guided projects that help you apply many of the ideas learned in the worksh
 
 ### Clojure web apps
 * [Practicalli, Clojure WebApps](http://practicalli.github.io/clojure-webapps/) - Serverside web application with Ring, Compojure and PostgresQL database
+* [Tic-tac-toe game in ClojureScript, reagent and SVG](http://practicalli.github.io/clojurescript/reagent-projects/tic-tac-toe/)
