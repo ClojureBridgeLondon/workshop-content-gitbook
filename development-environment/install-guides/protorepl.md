@@ -1,11 +1,9 @@
-# Atom Proton
+# Atom.io and ProtoREPL
 
+Proto REPL is a Clojure development environment and REPL for Atom.io.
 
-[Proton-mode](https://github.com/dvcrn/proton) gives a Spacemacs-like experience to the Atom editor
+[![Atom and ProtoREPL](/images/atom-protorepl-demo.gif)](/images/atom-protorepl-demo.gif)
 
-Proton-mode provides a mnemonic menu and set of keybindings that offer an effective alternative to the interesting keybindings with Atom and ProtoREPL.  It also provides modal editing features, simplifying keybindings.
-
-[![Proton-mode](/images/proton-mode.gif)](/images/proton-mode.gif)
 
 ## Install Atom.io
 
@@ -63,13 +61,14 @@ This will install Atom, add the `atom` and `apm` commands to your PATH and creat
 
 {% endtabs %}
 
-## Install Proton
+## Install Proto REPL package
+
+Open the Atom Settings.  In the install section, search for each of the required packages and install them.  If you have time, also install the recommended packages.
 
 Required packages
 
 * [ink](https://atom.io/packages/ink) - Proto REPL dependency used for inline display and the REPL output.
 * [proto-repl](https://github.com/jasongilman/proto-repl) - Clojure REPL, autocompletion, etc.
-* [Proton-mode](https://github.com/dvcrn/proton) - Spacemacs style menu and keybindings to make Atom easier to use (included Vim / Emacs keybinding support)
 
 Recommended packages
 

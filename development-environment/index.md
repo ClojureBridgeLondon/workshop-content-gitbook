@@ -1,29 +1,33 @@
 # Clojure development environment guides
 
-If you wish to continue discovering Clojure after the ClojureBridge London event, we can help you set up development tools on your laptop.
+Coaches can help you set up development tools on your laptop if you wish to continue discovering Clojure after the ClojureBridge London event.
 
-You will need:
+## Common tools required
 
-* **Java standard edition (SE)** - Clojure runs on top of Java.  The Java Runtime Enviromment (JRE) is needed to run Clojure .
-* **Leiningen** - a tool for running Clojure programs, also creating & managing Clojure projects
-* **Git** - versioning your Clojure code (so you can go back to earlier versions if you make a mistake)
-* **A Clojure aware Editor** - one of several editor choices that support the Clojure programming language
+| Tool            | Is it installed? | Install guide     |
+|-----------------|------------------|-------------------|
+| Java 8 or above | `java -version`  | Java install      |
+| Leiningen       | `lein version`   | Leiningen install |
+| Git             | `git --version`  | Git install       |
 
-> #### Hint::
-> If you just wish to save your code, you can use any editor you prefer or paste it into [Github gists](https://gist.github.com/)
+Clojure is a hosted language and runs on top of Java or JavaScript (and other platforms).  The Java Runtime Enviromment (JRE) is needed to run Clojure.
+
+Leiningen is a build tool for running Clojure code, creating and managing projects.
+
+Git can be used to version your Clojure code, so you can go back to earlier versions if you make a mistake.
 
 
 ## Clojure aware editors
 
-There are several editors that support Clojure development:
+Use one of the following editors
 
-* [LightTable](https://github.com/ClojureBridgeLondon/curriculum/blob/gh-pages/outline/setup.md) - great for those new to Clojure (default choice)
-* [Atom & Protorepl](https://atom.io/packages/proto-repl#installation) - typically used by web & Javascript developers
+* [Atom.io](https://atom.io/) and the [protoREPL](https://atom.io/packages/proto-repl#installation) package - typically used by web & Javascript developers
 * [Emacs](https://cider.readthedocs.io/) - for developers that love Emacs
+* [Microsoft VS Code](https://code.visualstudio.com/) with [Calva](https://marketplace.visualstudio.com/items?itemName=cospaia.clojure4vscode) extension.
 * [Spacemacs](http://spacemacs.org/) - for developers that love Emacs & Vim ([Spacemacs & Clojure book](https://practicalli.github.io/spacemacs/install-spacemacs/) - work in progress)
 * [IntelliJ & Cursive](https://cursive-ide.com/userguide/) - typically used by Java developers
-* [Microsoft Code](https://code.visualstudio.com/) with [clojureVScode](https://marketplace.visualstudio.com/items?itemName=avli.clojure) or [Clojure Code](https://marketplace.visualstudio.com/items?itemName=jamesnorton.continuum) plugins
+* [LightTable](https://github.com/ClojureBridgeLondon/curriculum/blob/gh-pages/outline/setup.md) - great for those new to Clojure (default choice)
 
 
-> #### Hint::
-> If you are new to development of any kind, then we suggest [LightTable](https://github.com/ClojureBridgeLondon/curriculum/blob/gh-pages/outline/setup.md)
+> #### Hint:: Just saving your code
+> If you just wish to save your code, you can use any editor you prefer or paste it into [Github gists](https://gist.github.com/)
