@@ -1,5 +1,7 @@
 # Summary
 
+## Friday Overview
+
 * [ClojureBridge London](introduction.md)
     * [Using this workshop](using-this-workshop.md)
 * [Introducing Clojure](introducing-clojure/index.md)
