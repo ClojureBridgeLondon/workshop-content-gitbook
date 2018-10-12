@@ -73,9 +73,16 @@ Required packages
 Recommended packages
 
 * [lisp-paredit](https://atom.io/packages/lisp-paredit) - to manage your `()`
-* [proto-repl-charts](https://github.com/jasongilman/proto-repl-charts) - graphs and charts
-* tool-bar - displays a REPL tool bar
-* highlight-selected - highlights selected keywords throughout an editor
+* [proto-repl-charts](https://github.com/jasongilman/proto-repl-charts)
+
+## Configure ProtoREPL with Leiningen
+
+Go to the Proto REPL Settings (Atom Preferences, then packages, then Proto REPL)
+
+Modify "Lein Path" to the path where Leiningen.
+
+Use `which lein` in a terminal to get the path.
+
 
 
 ## Download the sample project
