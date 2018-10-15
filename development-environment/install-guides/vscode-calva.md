@@ -6,8 +6,10 @@ VS Code supports Clojure and ClojureScript development through an extension call
 
 ## Install VS Code
 
+<!-- Operating System specific instructions -->
 {% tabs first="Debian/Ubuntu", second="MacOSX", third="RedHat", forth="Windows" %}
 
+<!-- Debian/Ubuntu instructions -->
 {% content "first" %}
 [Download the `.deb` file](https://code.visualstudio.com/)
 
@@ -26,6 +28,7 @@ Close the Ubuntu Software app once the install has finished.
 To run VSCode, press the `Super` key and type `code`, or open a terminal and type the command `code`.
 
 
+<!-- MacOSX instructions -->
 {% content "second" %}
 
 [Download the `.zip` file](https://code.visualstudio.com/)
@@ -43,6 +46,7 @@ Add VS Code to your Dock by right-clicking on the icon and choosing `Options, Ke
 Launch VSCode from the Dock, or in a command line terminal, type `code`.
 
 
+<!-- RedHat instructions -->
 {% content "third" %}
 [Download the `.rpm` file](https://code.visualstudio.com/)
 
@@ -54,6 +58,8 @@ To run VSCode, press the `Super` key and type `code`, or open a terminal and typ
 
 [Reference: VSCode on Linux](https://code.visualstudio.com/docs/setup/linux)
 
+
+<!-- Windows instructions -->
 {% content "forth" %}
 
 [Download the Windows Installer](https://code.visualstudio.com/)
@@ -68,6 +74,8 @@ VS Code is installed under `C:\users\{username}\AppData\Local\Programs\Microsoft
 
 Open the Start menu and type `code`.  Click on the VSCode icon to start.
 
+{% endtabs %}
+<!-- End of Operating System specific instructions -->
 
 ## Install Calva extension
 
