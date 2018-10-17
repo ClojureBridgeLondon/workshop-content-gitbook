@@ -6,6 +6,7 @@
         "readme": "introduction.md"
     },
     "styles": {
+        "website": "styles/website.css",
         "ebook": "styles/ebook.css",
         "pdf": "styles/pdf.css",
         "mobi": "styles/mobi.css",
@@ -21,7 +22,8 @@
         "sectionx",
         "simpletabs",
         "youtube",
-        "klipse"
+        "klipse",
+        "wide-page"
     ],
     "pluginsConfig": {
         "callouts": {
