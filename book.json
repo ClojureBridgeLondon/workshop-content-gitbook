@@ -13,16 +13,17 @@
         "epub": "styles/epub.css"
     },
     "plugins": [
-        "toggle-chapters",
+        "callouts",
         "codeblock-disable-glossary",
         "disqus",
         "ga",
-        "toolbar",
-        "callouts",
+        "gist",
+        "klipse",
         "sectionx",
         "simpletabs",
+        "toggle-chapters",
+        "toolbar",
         "youtube",
-        "klipse",
         "wide-page"
     ],
     "pluginsConfig": {
