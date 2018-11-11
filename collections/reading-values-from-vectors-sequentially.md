@@ -25,7 +25,7 @@ We can call one function and use its return value as an argument to another func
 
 ```clojure
 ;; rest function returns all values but the first one.
-;; the returned values then has the
+;; the second value can then be returned from the collection
 (second
   (rest
     ["Birthdays are" "full of" "presents" "that you" "always dreamd" "of having"]))

@@ -28,7 +28,7 @@ To get the elapsed time in seconds, we can take the expression and wrap it with 
 
 
 ```clojure
-(* (+ (* 2 60) 20) 60)
+(* (+ (* 2 60) 25) 60)
 ```
 
 <!--endsec-->
@@ -63,6 +63,9 @@ And the number of seconds calculated like this:
 (rem 428 60)
 ;; => 8
 ```
+
+7 hours is 420 minutes, so there are 8 minutes remaining that do not fit into a whole hour.
+
 So 428 minutes is the same as 7 hours and 8 minutes
 <!--endsec-->
 

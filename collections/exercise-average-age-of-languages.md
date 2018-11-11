@@ -24,15 +24,19 @@ The programming language ages in a vector collection:
 (first (sort [10 27 26 21 22 22 45 34 59 60]))
 ```
 
-A more functional approach would be to put the ages into a collection.  Then we can use a function called `count` to get the total number of ages.  The total value is then used to divide all the ages by.  The more languages we have, the more useful a collection becomes.
+We could also use a function called `count` to get the total number of ages.  The total value is then used to divide all the ages by.  The more languages we have, the more useful a collection becomes.
 
 ```clojure
 (/ (+ 10 27 26  21 22 22 45 34 59 60)
    (count [10 27 26  21 22 22 45 34 59 60]))
 ```
 
+The [min](https://clojuredocs.org/clojure.core/min) function will simplify our expression
 
-A more advanced approach (we cover in the [functions](/functions/) section) would be to use [map](https://clojuredocs.org/clojure.core/map) to call the [min](https://clojuredocs.org/clojure.core/min) function on each element of the collection.
+```clojure
+(min [10 27 26 21 22 22 45 34 59 60])
+```
 
+There are over 600 functions in clojure.core so there is often a function you are looking for to simplify you code
 
 <!--endsec-->
