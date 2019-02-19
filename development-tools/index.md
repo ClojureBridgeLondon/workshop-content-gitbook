@@ -68,9 +68,9 @@ Proton offers a simple mnemonic menu as an alternative to the somewhat cumbersom
 <!-- IntelliJ and Cursive -->
 {% content "forth" %}
 
-[IntelliJ & Cursive install guide](install-guides/intellij-cursive.html)
+* [Cursive install guide](install-guides/intellij-cursive.html)
+* [Cursive IDE for IntelliJ](https://cursive-ide.com/)
 
-[Cursive IDE for IntelliJ](https://cursive-ide.com/)
 
 ![Cursive IDE](https://cursive-ide.com/images/cursive-screenshot.png)
 
