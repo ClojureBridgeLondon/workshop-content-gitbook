@@ -1,11 +1,10 @@
 # Spacemacs Install
 
-> #### TODO::work in progress, sorry
+This quick install guide will show you how to:
 
 * [Install Emacs version 25 or greater](https://practicalli.github.io/spacemacs/before-you-start/install-emacs.html)
 * [Install Spacemacs](https://practicalli.github.io/spacemacs/install-spacemacs/)
 * [Configure an enhanced Clojure experience](https://practicalli.github.io/spacemacs/install-spacemacs/enhance-clojure-experience.html)
-
 
 
 ## Install Emacs
@@ -13,10 +12,10 @@
 Spacemacs is a configuration for Emacs version 25 or greater.
 
 <!-- Emacs Install Operating System specific instructions -->
-{% tabs first="Debian/Ubuntu", second="MacOSX", third="Chocolatey", forth="Windows" %}
+{% tabs linux="Debian/Ubuntu", mac="MacOSX", chocolatey="Chocolatey", windows="Windows" %}
 
 <!-- Debian/Ubuntu Emacs Install -->
-{% content "first" %}
+{% content "linux" %}
 
 Open a terminal and run the following command (you will be prompted for your login password to complete the install)
 
@@ -29,12 +28,13 @@ sudo apt-get install emacs25
 ```bash
 sudo add-apt-repository ppa:ubuntu-elisp/ppa
 sudo apt-get update
+sudo apt-get install emacs25
 ```
 If you want the bleeding edge of Emacs, use the command `sudo apt-get install emacs-snapshot`
 
 
 <!-- MacOSX -->
-{% content "second" %}
+{% content "mac" %}
 
 [Download the latest Emacs version](https://emacsformacosx.com/)
 
@@ -53,7 +53,7 @@ brew linkapps emacs-plus
 
 
 <!-- Choclatey (Windows) install -->
-{% content "third" %}
+{% content "chocolatey" %}
 
 [Chocolatey](https://chocolatey.org/) is a package manager for Windows (similar to Homebrew for MacOSX)
 
@@ -66,7 +66,7 @@ Open a command window and run the command: `runemacs.exe`
 
 
 <!-- Windows -->
-{% content "forth" %}
+{% content "windows" %}
 
 Create a directory called `C:\Users\your-user-name\AppData\Local\Programs\emacs`
 
@@ -95,8 +95,16 @@ git checkout develop
 
 Run Emacs as usual and answer the following questions when prompted
 
+| Prompt;                 | Answer   |
+|-------------------------|----------|
+| Evil or Holy mode       | Evil     |
+| Standard or Lightweight | Standard |
+| Helm or Ivy             | Helm     |
 
-> #### TODO:: Screenshots
-Vim
-Full distro
-Helm
+Spacemacs will now download all its Emacs packages and this will take 5 to 10 minutes based on your Internet speed.
+
+Once all the packages have downloaded, we recommend you restart Spacemacs, `SPC q r`.
+
+## Configure Spacemacs for Clojure
+
+Follow the instructions in the [enhancing the Clojure experience in Spacemacs](https://practicalli.github.io/spacemacs/install-spacemacs/enhance-clojure-experience.html) page.
