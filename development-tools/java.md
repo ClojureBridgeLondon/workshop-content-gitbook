@@ -24,6 +24,15 @@ sudo add-apt-repository ppa:webupd8team/java
 sudo apt-get update
 ```
 
+> #### Hint::Switching between Java versions
+> If you have more than one version of Java installed, set the version by opening a terminal and using the following command
+>
+```bash
+sudo update-alternatives --config java
+```
+> Available java versions will be listed.  Enter the list number for the version you wish to use.
+
+
 <!-- Homebrew (MacOSX) install -->
 {% content "second" %}
 
@@ -33,6 +42,25 @@ If you use [Homebrew](https://brew.sh/), then run the following commands in a te
 brew tap AdoptOpenJDK/openjdk
 brew install adoptopenjdk-openjdk8
 ```
+
+> #### Hint::Swithching between Java versions
+> You can run more than one version of Java on MacOS. Set the Java version by opening a terminal and using one of the following commands
+>
+> List Java versions installed
+```bash
+/usr/libexec/java_home -V
+```
+>
+> Switch to Java version 1.8 (recommended)
+```bash
+export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
+```
+>
+> Change back to Java version 11 (not recommended)
+```bash
+export JAVA_HOME=$(/usr/libexec/java_home -v 11)
+```
+
 
 <!-- Choclatey (Windows) install -->
 {% content "third" %}
