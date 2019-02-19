@@ -5,7 +5,7 @@
 
 Proton-mode provides a mnemonic menu and set of keybindings that offer an effective alternative to the interesting keybindings with Atom and ProtoREPL.  It also provides modal editing features, simplifying keybindings.
 
-[![Proton-mode](/images/proton-mode.gif)](/images/proton-mode.gif)
+[![Proton-mode](/images/atom-proton-mode-demo.gif)](/images/atom-proton-mode-demo.gif)
 
 ## Install Atom.io
 
