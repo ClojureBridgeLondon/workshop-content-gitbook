@@ -75,5 +75,19 @@ Proton offers a simple mnemonic menu as an alternative to the somewhat cumbersom
 ![Cursive IDE](https://cursive-ide.com/images/cursive-screenshot.png)
 
 
+{% content "vim" %}
+## Using Vim style editing
+
+We don't directly support Vim (although we will do our best to help). You can use Vim with the [fireplace](https://github.com/tpope/vim-fireplace) plugin to work with your Clojure REPL.
+
+Both Spacemacs and Atom/Proton have great support for Vim style editing and so are a viable alternative.
+
+If you wish to use Vim, take a look at some of these articles for help.
+
+* [Clojure and Vim: An overview - its very possible](https://juxt.pro/blog/posts/vim-1.html)
+* [Clojure docs: Clojure with Vim and fireplace.vim](http://clojure-doc.org/articles/tutorials/vim_fireplace.html)
+* [Writing Clojure in Vim](https://thoughtbot.com/blog/writing-clojure-in-vim)
+
+
 {% endtabs %}
 <!-- End of Clojure editors -->
