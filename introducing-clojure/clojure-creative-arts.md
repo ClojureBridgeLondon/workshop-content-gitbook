@@ -4,8 +4,11 @@
 
 * [Klangmeister](https://ctford.github.io/klangmeister/) - design synthesisers and compose music using Clojure in a live coding environment in the browser
 * [Overtone](http://overtone.github.io/) - explore new musical ideas from synthesis and sampling to instrument building within a collaborative jamming live-coding environment. Combines the powerful [SuperCollider audio engine](http://supercollider.github.io/) with Clojure
+    * [A live coding environment for Overtone and Leipzig.](https://github.com/pjagielski/disclojure)
+    * [Overtone Recipes - programming music with Clojure](http://overtone-recipes.github.io/)
     * MetaX - [Hack Your Own Band With Clojure and Overtone](https://www.youtube.com/watch?v=qUU7WeUiR5o#t=51m44s)
     * [Chris Ford - Creating music with Clojure and Overtone](https://www.youtube.com/watch?v=RYZeQ6t_5SA#t55m.18s)
+    * [Live coding with Overtone and disclojure - Piotr Jagielski](https://www.youtube.com/channel/UCdsLnOiepq0GEPpGY14V5Rg)
 
 {% youtube %}
 https://www.youtube.com/watch?v=r8YKC7Qugm8)
