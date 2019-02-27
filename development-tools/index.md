@@ -22,10 +22,10 @@ Git can be used to version your Clojure code, so you can go back to earlier vers
 **[Install guides](install-guides/index.html)** are provided for all these editors.
 
 <!-- Clojure Editors -->
-{% tabs first="Atom", second="VSCode", third="Spacemacs", forth="IntelliJ" %}
+{% tabs atom="Atom", vscode="VSCode", emacs="Emacs/Spacemacs", intellij="IntelliJ", vim="Vim style"%}
 
 <!-- Atom.io and ProtoREPL -->
-{% content "first" %}
+{% content "atom" %}
 
 [Atom & ProtoREPL install guide](install-guides/atom-protorepl.html)
 
@@ -45,7 +45,7 @@ Proton offers a simple mnemonic menu as an alternative to the somewhat cumbersom
 
 
 <!-- VSCode and Calva -->
-{% content "second" %}
+{% content "vscode" %}
 
 [VSCode Calva extension](https://marketplace.visualstudio.com/items?itemName=cospaia.clojure4vscode)
 
@@ -54,7 +54,7 @@ Proton offers a simple mnemonic menu as an alternative to the somewhat cumbersom
 [Microsoft VSCode & Calva install guide](install-guides/vscode-calva.html)
 
 <!-- Spacemacs -->
-{% content "third" %}
+{% content "emacs" %}
 
 [Emacs & Spacemacs install guide](install-guides/emacs-spacemacs.html)
 
@@ -66,7 +66,7 @@ Proton offers a simple mnemonic menu as an alternative to the somewhat cumbersom
 
 
 <!-- IntelliJ and Cursive -->
-{% content "forth" %}
+{% content "intellij" %}
 
 * [Cursive install guide](install-guides/intellij-cursive.html)
 * [Cursive IDE for IntelliJ](https://cursive-ide.com/)
