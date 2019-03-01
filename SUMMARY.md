@@ -12,6 +12,7 @@
         * [Rich terminals](introducing-clojure/rich-terminals.md)
     * [Creative Arts](introducing-clojure/clojure-creative-arts.md)
         * [Generate HTML with Hiccup](introducing-clojure/generate-html-from-hiccup.md)
+        * [Generative Graphics](introducing-clojure/generative-graphics.md)
         * [SVG Graphics - reagent](introducing-clojure/clojure-svg-graphics.md)
         * [Generating Wallpaper](introducing-clojure/generating-wallpaper.md)
         * [2D Games](introducing-clojure/clojure-games.md)
