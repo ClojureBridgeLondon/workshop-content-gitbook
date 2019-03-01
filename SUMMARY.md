@@ -9,6 +9,7 @@
     * [Powerful - many uses of Clojure](introducing-clojure/who-uses-clojure.md)
     * [Simple - Small Syntax](introducing-clojure/simple-small-syntax.md)
     * [Fun - Coding in the REPL](introducing-clojure/coding-in-the-repl.md)
+        * [Rich terminals](introducing-clojure/rich-terminals.md)
     * [Creative Arts](introducing-clojure/clojure-creative-arts.md)
         * [Generate HTML with Hiccup](introducing-clojure/generate-html-from-hiccup.md)
         * [SVG Graphics - reagent](introducing-clojure/clojure-svg-graphics.md)
