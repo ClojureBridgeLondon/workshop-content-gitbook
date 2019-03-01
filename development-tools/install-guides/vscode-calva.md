@@ -7,10 +7,10 @@ VS Code supports Clojure and ClojureScript development through an extension call
 ## Install VS Code
 
 <!-- Operating System specific instructions -->
-{% tabs first="Debian/Ubuntu", second="MacOSX", third="RedHat", forth="Windows" %}
+{% tabs debian="Debian/Ubuntu", mac="MacOSX", redhat="RedHat", windows="Windows" %}
 
 <!-- Debian/Ubuntu instructions -->
-{% content "first" %}
+{% content "debian" %}
 [Download the `.deb` file](https://code.visualstudio.com/)
 
 Open (double click) the file.  The Ubuntu software studio will open.  Click the Install button.
@@ -29,7 +29,7 @@ To run VSCode, press the `Super` key and type `code`, or open a terminal and typ
 
 
 <!-- MacOSX instructions -->
-{% content "second" %}
+{% content "mac" %}
 
 [Download the `.zip` file](https://code.visualstudio.com/)
 
@@ -47,7 +47,7 @@ Launch VSCode from the Dock, or in a command line terminal, type `code`.
 
 
 <!-- RedHat instructions -->
-{% content "third" %}
+{% content "redhat" %}
 [Download the `.rpm` file](https://code.visualstudio.com/)
 
 Open (double click) the file.  The Ubuntu software studio will open.  Click the Install button.
@@ -60,7 +60,7 @@ To run VSCode, press the `Super` key and type `code`, or open a terminal and typ
 
 
 <!-- Windows instructions -->
-{% content "forth" %}
+{% content "windows" %}
 
 [Download the Windows Installer](https://code.visualstudio.com/)
 
@@ -79,10 +79,17 @@ Open the Start menu and type `code`.  Click on the VSCode icon to start.
 
 ## Install Calva extension
 
-Launch VS Code Quick Open, `Ctrl+P`, paste the following command, and press enter.
+Select the Extensions icon in the left hand navigation.
 
-```
-ext install cospaia.clojure4vscode
-```
+Type `calva` into the search box to list the relevant extensions to install
 
-[Reference: VSCode Extension Marketplace](https://code.visualstudio.com/docs/editor/extension-gallery)
+![VSCode Calva Extensions list](/images/vscode-calva-extensions-list.png)
+
+Click the `Install` button next to the `Calva: Clojure & ClojureScript interactive programming` extension and all three will be installed.
+
+* Calva: Clojure & ClojureScript interactive programming
+* Calva Clojure Formatter
+* Calva Paredit
+
+> ####HINT::No restart required
+> VSCode version 1.31.1 does not need to restart after installing the extensions.
