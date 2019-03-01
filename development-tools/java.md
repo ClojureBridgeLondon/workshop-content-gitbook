@@ -17,14 +17,14 @@ Open a terminal and run the following command (you will be prompted for your log
 sudo apt-get install openjdk-8-jre
 ```
 
-> #### Hint:: openjdk-8 not available?
+> #### Hint:: openjdk-8 not available or not the right version?
 > If openjdk-8 is not available, add the [WebUpd8 Java personal package archive](https://launchpad.net/~webupd8team/+archive/ubuntu/java)
 ```bash
 sudo add-apt-repository ppa:webupd8team/java
 sudo apt-get update
 ```
-
-> #### Hint::Switching between Java versions
+>
+> Switching between Java versions
 > If you have more than one version of Java installed, set the version by opening a terminal and using the following command
 >
 ```bash
