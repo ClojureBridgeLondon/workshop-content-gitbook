@@ -2,6 +2,8 @@
 
 Clojure has a very small syntax, with very few fiddly bits in the language.
 
+The syntax is so small you can [read it all in about 15 minutes with lots of examples](https://repl.it/@jr0cket/Clojure-In-15-minutes)
+
 ```eval-clojure
 (str "Hello" " " "World!")
 ```
