@@ -6,6 +6,7 @@
     * [Schedule](schedule.md)
 * [Introducing Clojure](introducing-clojure/index.md)
     * [Simple - Small Syntax](introducing-clojure/simple-small-syntax.md)
+    * [What is Functional Programming](what-is-functional-programming.md)
     * [Powerful - many uses of Clojure](introducing-clojure/who-uses-clojure.md)
     * [Fun - Coding in the REPL](introducing-clojure/coding-in-the-repl.md)
     * [Creative Arts](introducing-clojure/clojure-creative-arts.md)
