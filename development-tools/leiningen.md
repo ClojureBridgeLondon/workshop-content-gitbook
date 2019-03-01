@@ -8,10 +8,10 @@ Leiningen will help you create, build and deploy your Clojure projects.
 Install the Leiningen tool using the specific instructions for your Operating System
 
 <!-- Operating System specific instructions -->
-{% tabs first="Linux", second="Homebrew", third="GitBash", forth="Chocolatey", fifth="Windows Manual" %}
+{% tabs linux="Linux", homebrew="Homebrew", gitbash="GitBash", chocolatey="Chocolatey", windows="Windows Manual" %}
 
 
-{% content "first" %}
+{% content "linux" %}
 [Download the lein script](https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein) to your local `bin` directory.  Then make the `lein` script executable and run `lein` to download the full version.
 
 ```bash
@@ -23,15 +23,31 @@ lein
 If the command `lein` is not found, run `source ~/.bashrc` to ensure your `bin` directory is on the path.
 
 
-{% content "second" %}
+{% content "homebrew" %}
 If you have [Homebrew](https://brew.sh/) installed, run the following command in a terminal window.
 
 ```bash
 brew install leiningen
 ```
 
-## Windows Chocolatey
-{% content "third" %}
+
+{% content "gitbash" %}
+GitBash allows you to use the Linux `lein` script, which causes have less issues when installing on Windows.
+
+[Download Git](https://git-scm.com/download/win), double click the file and follow the install wizard accepting all the defaults (there are quite a few, sorry).
+
+Create a directory called `C:\Users\your-user-name\AppData\Local\Programs\Leiningen`, where `your-user-name` is your windows login name.
+
+[Download the lein script](https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein) save it to the above directory
+
+Open `Environment variables for your account` and add the directory to your path
+
+Open GitBash application and a terminal window will open.  Run the command: `lein`
+
+The full version of Leiningen will be downloaded and Leiningen is ready to use.
+
+
+{% content "chocolatey" %}
 
 If you have [Chocolatey](https://chocolatey.org/) installed, add the [Leiningen package](https://chocolatey.org/packages/Lein) by running the following command in a terminal window.
 
@@ -39,12 +55,15 @@ If you have [Chocolatey](https://chocolatey.org/) installed, add the [Leiningen 
 choco install lein
 ```
 
-{% content "forth" %}
-[GitBash](https://gitforwindows.org/) allows you to use the Linux `lein` script, which may have less issues when installing.
+
+{% content "windows" %}
+
+> ####WARN::lein.bat method does not always work
+> We recommend using the GitBash approach for Windows
 
 Create a directory called `C:\Users\your-user-name\AppData\Local\Programs\Leiningen`
 
-Download the `lein` file and save it to the above directory
+[Download the `lein.bat` file](https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein.bat) and save it to the above directory
 
 Open `Environment variables for your account` and add the directory to your path
 
@@ -52,19 +71,7 @@ Open a command window and run the command: `lein`
 
 The full version of Leiningen will be downloaded and Leiningen is ready to use.
 
-
-
-{% content "fifth" %}
-Create a directory called `C:\Users\your-user-name\AppData\Local\Programs\Leiningen`
-
-Download the `lein.bat` file and save it to the above directory
-
-Open `Environment variables for your account` and add the directory to your path
-
-Open a command window and run the command: `lein.bat`
-
-The full version of Leiningen will be downloaded and Leiningen is ready to use.
-
+If you get an error that `leiningen-x-x-x-standalone.jar cannot be found`, please use the GitBash approach.
 
 {% endtabs %}
 <!-- End of Operating System specific instructions -->
