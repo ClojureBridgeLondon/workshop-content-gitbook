@@ -1,6 +1,5 @@
 # Atom Proton
 
-
 [Proton-mode](https://github.com/dvcrn/proton) gives a Spacemacs-like experience to the Atom editor
 
 Proton-mode provides a mnemonic menu and set of keybindings that offer an effective alternative to the interesting keybindings with Atom and ProtoREPL.  It also provides modal editing features, simplifying keybindings.
@@ -11,9 +10,9 @@ Proton-mode provides a mnemonic menu and set of keybindings that offer an effect
 
 Follow the instructions for your operating system
 
-{% tabs first="Debian/Ubuntu", second="MacOSX", third="RedHat", forth="Windows" %}
+{% tabs debian="Debian/Ubuntu", mac="MacOSX", redhat="RedHat", windows="Windows" %}
 
-{% content "first" %}
+{% content "debian" %}
 The standalone install is the simplest option.  However, using the package manager approach will simplify updating Atom.io to new versions.
 
 ### Standalone Install
@@ -22,7 +21,7 @@ Download the latest `.deb` file from [Atom.io](https://atom.io)
 Once downloaded, double-click the `.deb` file to install.
 
 
-### Via Package Manager
+### Alternative install via Package Manager
 Add the official Atom package repository to your system by running the following commands in a terminal window:
 
 ```bash
@@ -36,7 +35,7 @@ sudo apt-get install atom
 To run atom, press the `Super` key and type `atom`, or open a terminal and type the command `atom`.
 
 
-{% content "second" %}
+{% content "mac" %}
 
 Download the [`atom-mac.zip`](https://github.com/atom/atom/releases/latest) file.
 
@@ -44,7 +43,7 @@ Open the `atom-mac.zip` file (double click) and drag the Atom application into y
 
 See [Installing Atom](https://flight-manual.atom.io/getting-started/sections/installing-atom/#platform-mac) for troubleshooting and further details.
 
-{% content "third" %}
+{% content "redhat" %}
 Download the latest `.rpm` file from Atom.io
 
 Once downloaded, double-click the `.rpm` file to install.
@@ -54,7 +53,11 @@ To run atom, press the `Super` key and type `atom`, or open a terminal and type 
 See the [Atom guide for Fedora](https://flight-manual.atom.io/getting-started/sections/installing-atom/#red-hat-and-centos-yum-or-fedora-dnf) if you wish to use the package manager instead.
 
 
-{% content "forth" %}
+{% content "windows" %}
+
+> #### Danger::Leiningen in GitBash does not work with Atom
+> Recommend using [VSCode and Calva](vscode-calva.html) if you have installed Leiningen via GitBash method.
+
 Downloaded [`AtomSetup.exe`](https://github.com/atom/atom/releases/latest) Windows Installer.
 
 Open the `AtomSetup.exe` installer and follow the instructions.
@@ -79,17 +82,17 @@ Recommended packages
 * highlight-selected - highlights selected keywords throughout an editor
 
 
-## Download the sample project
+## Example project: Welcome to ClojureBridge
 
 We have created an example Clojure project called "Welcome To ClojureBridge" to test your development tools.
 
-{% tabs fifth="Download project as zip file", sixth="Clone project from Github" %}
+{% tabs projectzip="Download project as zip file", projectclone="Clone project from Github" %}
 
-{% content "fifth" %}
+{% content "projectzip" %}
 [Download the "Welcome To ClojureBridge" zip file](https://github.com/ClojureBridgeLondon/welcometoclojurebridge/archive/master.zip) and extract all the files.
 
 
-{% content "sixth" %}
+{% content "projectclone" %}
 If you are comfortable using the git version control tool and the command line, then you can clone the project using git
 
 ```bash
@@ -102,8 +105,10 @@ git clone https://github.com/ClojureBridge/welcometoclojurebridge
 
 Add the project called `welcometoclojurebridge`.
 
+Open the `project.clj` file and add the dependency `[proto-repl "0.3.1"]`.
+
 Open the `src/welcometoclojurebridge/core.clj` file.
 
-`Ctrl-Alt-, s` to start a Clojure REPL and display the REPL in a new window.
+`, s i` to start a Clojure REPL and display the REPL in a new window.
 
 You should see a friendly message from the ClojureBridge team.

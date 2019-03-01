@@ -9,9 +9,9 @@ Proto REPL is a Clojure development environment and REPL for Atom.io.
 
 Follow the instructions for your operating system
 
-{% tabs first="Debian/Ubuntu", second="MacOSX", third="RedHat", forth="Windows" %}
+{% tabs debian="Debian/Ubuntu", mac="MacOSX", redhat="RedHat", windows="Windows" %}
 
-{% content "first" %}
+{% content "debian" %}
 The standalone install is the simplest option.  However, using the package manager approach will simplify updating Atom.io to new versions.
 
 ### Standalone Install
@@ -34,7 +34,7 @@ sudo apt-get install atom
 To run atom, press the `Super` key and type `atom`, or open a terminal and type the command `atom`.
 
 
-{% content "second" %}
+{% content "mac" %}
 
 Download the [`atom-mac.zip`](https://github.com/atom/atom/releases/latest) file.
 
@@ -42,7 +42,7 @@ Open the `atom-mac.zip` file (double click) and drag the Atom application into y
 
 See [Installing Atom](https://flight-manual.atom.io/getting-started/sections/installing-atom/#platform-mac) for troubleshooting and further details.
 
-{% content "third" %}
+{% content "redhat" %}
 Download the latest `.rpm` file from Atom.io
 
 Once downloaded, double-click the `.rpm` file to install.
@@ -52,7 +52,11 @@ To run atom, press the `Super` key and type `atom`, or open a terminal and type 
 See the [Atom guide for Fedora](https://flight-manual.atom.io/getting-started/sections/installing-atom/#red-hat-and-centos-yum-or-fedora-dnf) if you wish to use the package manager instead.
 
 
-{% content "forth" %}
+{% content "windows" %}
+
+> #### Danger::Leiningen in GitBash does not work with Atom
+> Recommend using [VSCode and Calva](vscode-calva.html) if you have installed Leiningen via GitBash method.
+
 Downloaded [`AtomSetup.exe`](https://github.com/atom/atom/releases/latest) Windows Installer.
 
 Open the `AtomSetup.exe` installer and follow the instructions.
@@ -84,18 +88,17 @@ Modify "Lein Path" to the path where Leiningen.
 Use `which lein` in a terminal to get the path.
 
 
-
-## Download the sample project
+## Example project: Welcome to ClojureBridge
 
 We have created an example Clojure project called "Welcome To ClojureBridge" to test your development tools.
 
-{% tabs fifth="Download project as zip file", sixth="Clone project from Github" %}
+{% tabs projectzip="Download project as zip file", projectclone="Clone project from Github" %}
 
-{% content "fifth" %}
+{% content "projectzip" %}
 [Download the "Welcome To ClojureBridge" zip file](https://github.com/ClojureBridgeLondon/welcometoclojurebridge/archive/master.zip) and extract all the files.
 
 
-{% content "sixth" %}
+{% content "projectclone" %}
 If you are comfortable using the git version control tool and the command line, then you can clone the project using git
 
 ```bash
@@ -107,6 +110,8 @@ git clone https://github.com/ClojureBridge/welcometoclojurebridge
 ## Test your editor with a clojure project
 
 Add the project called `welcometoclojurebridge`.
+
+Open the `project.clj` file and add the dependency `[proto-repl "0.3.1"]`.
 
 Open the `src/welcometoclojurebridge/core.clj` file.
 
