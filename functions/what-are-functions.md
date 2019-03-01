@@ -33,7 +33,7 @@ Always returning a value makes it easy for Clojure to use functions as an argume
 
 <hr />
 
-> #### Hint::Learn more about Fuctions
+> #### Hint::Learn more about Functions
 > You have learnt the main things you need to know about functions, so you can stop here and move on to the next stage in the curriculum, [your first project](../your-first-project/).
 >
 > If you did want to learn more about functions then take a look at the bonus sections that follows.  You don't have to do all of these, go as far as you like

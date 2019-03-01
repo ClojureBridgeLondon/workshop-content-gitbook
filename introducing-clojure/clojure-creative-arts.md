@@ -30,7 +30,7 @@ Animation is simply multiple images drawn or displayed one after the other.
 
 #### Example graphics libraries
 
-* [Quil](http://quil.info/) - generate 2D graphics and animations.  One of the ClojureBridge projects is  Turtle, helping you understand the basics of using funcitons.
+* [Quil](http://quil.info/) - generate 2D graphics and animations.  One of the ClojureBridge projects is  Turtle, helping you understand the basics of using functions.
     * [Quil Examples](http://quil.info/examples)
 * [Thi.ng](http://thi.ng/) - an open source collection of 20+ computational design tools for Clojure & Clojurescript.
 

@@ -53,7 +53,7 @@
 * [Level 3- Collections](collections/index.md)
     * [Vectors](collections/vectors.md)
         * [Reading values by index](collections/reading-values-from-vectors-by-index.md)
-        * [Exercise: Weather Forcast](collections/vector-excercise-weather-forcast.md)
+        * [Exercise: Weather Forecast](collections/vector-excercise-weather-forcast.md)
         * [Reading values sequentially](collections/reading-values-from-vectors-sequentially.md)
         * [Exercise: Average age of languages](collections/exercise-average-age-of-languages.md)
         * [Adding values to vectors](collections/adding-values-to-vectors.md)
@@ -81,7 +81,7 @@
         * [Named or anonymous functions](functions/named-or-anonymous-functions.md)
         * [Calling anonymous functions](functions/calling-anonymous-functions.md)
         * [Arguments to functions](functions/arguments-to-functions.md)
-    * [Excercise: are we there yet?](functions/exercise-are-we-there-yet.md)
+    * [Exercise: are we there yet?](functions/exercise-are-we-there-yet.md)
     * [Theory: Simplicity with Pure Functions](functions/pure-functions.md)
         * [Pure function examples](functions/pure-function-examples.md)
         * [Impure function examples](functions/impure-function-examples.md)
@@ -90,7 +90,7 @@
     * [if](flow-control-logic/if.md)
     * [truthiness](flow-control-logic/truthiness.md)
     * [Exercise: positions](flow-control-logic/exercise-positions.md)
-    * [Excercise: positions continued](flow-control-logic/exercise-positions-continued.md)
+    * [Exercise: positions continued](flow-control-logic/exercise-positions-continued.md)
     * [cond](flow-control-logic/cond.md)
     * [Exercise: Temperature conversion](flow-control-logic/exercise-temperature-conversion.md)
     * [Theory: Boolean Logic](flow-control-logic/boolean-logic.md)
@@ -106,7 +106,7 @@
 * [Additional Projects](additional-projects/index.md)
     * [Most Common Word](https://clojurebridgelondon.github.io/community-docs/docs/curriculum/most-common-word)
     * [Celebrity Name Smash](additional-projects/celebrity-name-smash.md)
-    * [Clack Messeges](additional-projects/clacks-messages.md)
+    * [Clack Messages](additional-projects/clacks-messages.md)
 
 
 ## Miscellaneous content

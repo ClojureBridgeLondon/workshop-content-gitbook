@@ -15,7 +15,7 @@ Specific aims include:
 * Identifying fun ways to introduce functional concepts (eg. map reduce sandwich)
 * Identifying exercises to add
 * Creating an example that can be used throughout the course (eg, a profile app)
-* Identifying excerises to remove / replace (eg. examples with mutable state)
+* Identifying exercises to remove / replace (eg. examples with mutable state)
 * Discussing if testing & TDD should be included, reviewing examples
 * Having a set of failing tests (commented) and write code to pass the tests
 * Identifying coding kata that could be useful to add (eg most recent list)

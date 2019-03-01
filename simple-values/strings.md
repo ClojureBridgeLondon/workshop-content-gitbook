@@ -19,7 +19,7 @@ Strings are used a lot for content (e.g. blogs), user interfaces (e.g. menus) as
      " "
      "hour" )
 
-;; Strings can include special characters if you put the `\` charater before them
+;; Strings can include special characters if you put the `\` character before them
 (str "I am a"
      " "
      "\'functional \'"
@@ -35,7 +35,7 @@ There are many functions that work with strings, especially in the `clojure.stri
 
 * [`clojure.string/includes?`](https://clojuredocs.org/clojure.string/includes_q) - does a string include another string (returns true or false)
 * [`clojure.string/replace`](https://clojuredocs.org/clojure.string/replace) - replace part of the string with a different string
-* [`clojure.string/split`](https://clojuredocs.org/clojure.string/split) - split a string based on amatching pattern (regex)
+* [`clojure.string/split`](https://clojuredocs.org/clojure.string/split) - split a string based on a matching pattern (regex)
 * [`clojure.string/subs`](https://clojuredocs.org/clojure.core/subs) - get part of a string
 
 ------------------------------------------

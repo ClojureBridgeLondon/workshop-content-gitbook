@@ -89,7 +89,7 @@ A simple test that compares an empty vector with the value of `recent-songs`
 
 ```clojure
 (deftest song-list-empty-test
-  (testing "Is song list empty if we havent added any songs"
+  (testing "Is song list empty if we haven't added any songs"
     (is
      (= [] recent-songs))))
 ```
@@ -97,7 +97,7 @@ Here is the same test using the `empty?` function instead of the `=` function.
 
 ```clojure
 (deftest song-list-empty-test-2
-  (testing "Is song list empty if we havent added any songs"
+  (testing "Is song list empty if we haven't added any songs"
     (is
      (empty? recent-songs))))
 ```
@@ -146,7 +146,7 @@ A Thread-last macro `->>` is used to pass the song list over two functions.
 
 The `song-list` is first passed to the `remove` expression as its last argument.  This expression will remove any occurrence of the new song we want to add from the `song-list`.
 
-The results of the `remove` expression are then passed to the `cons` expressoin as its last argument.  The `cons` expression simply adds the new song to the start of the list, making it the most recent song.
+The results of the `remove` expression are then passed to the `cons` expression as its last argument.  The `cons` expression simply adds the new song to the start of the list, making it the most recent song.
 
 ```clojure
 (def recent-songs [])

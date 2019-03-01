@@ -36,7 +36,7 @@ A list is also simple, however you would need to `quote` the list to prevent Clo
 <!--endsec-->
 
 
-Define a name for our collection, so we dont need to copy/paste the collection each time.
+Define a name for our collection, so we don't need to copy/paste the collection each time.
 
 ```eval-clojure
 

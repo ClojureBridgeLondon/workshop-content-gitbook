@@ -43,7 +43,7 @@ brew tap AdoptOpenJDK/openjdk
 brew install adoptopenjdk-openjdk8
 ```
 
-> #### Hint::Swithching between Java versions
+> #### Hint::Switching between Java versions
 > You can run more than one version of Java on MacOS. Set the Java version by opening a terminal and using one of the following commands
 >
 > List Java versions installed

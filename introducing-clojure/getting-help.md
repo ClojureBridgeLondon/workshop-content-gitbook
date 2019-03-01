@@ -8,7 +8,7 @@ Create an account via [Clojurians Slack community self-service website](http://c
 | Resource                                                     | Description                                                      |
 |--------------------------------------------------------------|------------------------------------------------------------------|
 | **[Clojure Docs website](https://clojure-doc.org/)**         | descriptions & examples of the functions in the Clojure language |
-| **[Clojure cheetsheet](https://clojure.org/api/cheatsheet)** | Quick reference to most common functions                         |
+| **[Clojure cheatsheet](https://clojure.org/api/cheatsheet)** | Quick reference to most common functions                         |
 | [Clojure.org](https://clojure.org/)                          | detailed description of the language and features                |
 | [Cross clj](https://crossclj.info/)                          | explore the interconnected Clojure universe                                                                 |
 

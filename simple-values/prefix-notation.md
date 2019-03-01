@@ -16,7 +16,7 @@ Prefix: (+ (- (+ (+ 1 (/ (* 2 3) 4)) 5) (/ (* 6 7) 8)) 9)
 
 Imagine both the above expressions are unclear.  However in the prefix version you do not have to ever think about the [precedence of operators](https://en.wikipedia.org/wiki/Order_of_operations).
 
-Because each expression has the operator before all the operands and the entire expression is wrapped in parentheses, all precendence is explicit.
+Because each expression has the operator before all the operands and the entire expression is wrapped in parentheses, all precedence is explicit.
 
 ```clojure
 Infix:  1 + 2 / 3

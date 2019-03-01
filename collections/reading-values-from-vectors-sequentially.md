@@ -28,17 +28,17 @@ We can call one function and use its return value as an argument to another func
 ;; the second value can then be returned from the collection
 (second
   (rest
-    ["Birthdays are" "full of" "presents" "that you" "always dreamd" "of having"]))
+    ["Birthdays are" "full of" "presents" "that you" "always dreamed" "of having"]))
 ```
 
 We can also use a local name to hold some of the values in the collection and then use that name to get the right answer.
 
 
 ```clojure
-;; the let function assignes a name to our collection of values
+;; the let function assignees a name to our collection of values
 ;; then we get the value in third place by using the name.
 (let [my-values ["Birthdays are" "full of" "presents"
-              "that you" "always dreamd" "of having"]]
+              "that you" "always dreamed" "of having"]]
       (second (rest my-values)))
 ```
 

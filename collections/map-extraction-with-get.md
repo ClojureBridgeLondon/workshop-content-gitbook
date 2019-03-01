@@ -49,8 +49,8 @@ In this example we add the string "Unknown" to the `get` function call.  That st
 > When a key is a keyword then that keyword can be used as a function to lookup values in a map.
 > `(:firstname {:firstname "Sally" :lastname "Brown"})`
 >
-> A map can also act like a function when given a keyword as an arguemnt
+> A map can also act like a function when given a keyword as an argument
 > `({:firstname "Sally" :lastname "Brown"} :firstname)`
 >
-> Both of the above work exactly as the `get` function, so if you dont quite follow this then stick with `get`.
+> Both of the above work exactly as the `get` function, so if you don't quite follow this then stick with `get`.
 

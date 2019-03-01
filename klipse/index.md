@@ -10,7 +10,7 @@ Lets create some code with klipse
 
 Code is styled with style/website.css inline with single backtick marks as in the following code `(+ 1 2 3)`.
 
-And code can be shown without klipse using the usual tripple backtick and optional name of the programming language
+And code can be shown without klipse using the usual triple backtick and optional name of the programming language
 
 ```clj
 

@@ -1,4 +1,4 @@
-# Excercise: Spell Checking
+# Exercise: Spell Checking
 
 > #### Note::Fixing spelling mistakes
 > One aspect of fixing spelling mistakes is to find and replace incorrect words.

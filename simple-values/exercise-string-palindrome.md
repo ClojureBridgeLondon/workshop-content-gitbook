@@ -2,7 +2,7 @@
 
 These exercises will give you more experience using strings and the [`clojure.string`](https://clojuredocs.org/clojure.string) library.
 
-> #### Note::Simple Palendrome Checker
+> #### Note::Simple Palindrome Checker
 > A [Palindrome](https://en.wikipedia.org/wiki/Palindrome) is a word that is spelt the same whether it is written backwards or forwards.  So when you _reverse_ the word it should still look the same.
 >
 > Can you write a simple expression to see if a word, e.g. "radar", is a palindrome.

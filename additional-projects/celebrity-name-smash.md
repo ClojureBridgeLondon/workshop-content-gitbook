@@ -10,13 +10,13 @@ To understand how this code was created, read the article [Clojure Dojo: Celebri
 > ####TODO::Break the celebrity name smash challenge into several sections
 
 
-The June 2016 edition of the London Clojurians coding dojo set the challenge of building a celebrity name smash, taking two "celebrities" and smashing their names together to make a weird or ammusing gestalt name.
+The June 2016 edition of the London Clojurians coding dojo set the challenge of building a celebrity name smash, taking two "celebrities" and smashing their names together to make a weird or amusing gestalt name.
 
 For bonus points the challenge would include this celebrity name smash as a service and even more bonus points if using the new `clojure.spec` library to put specifications around data structures and functions.
 
 > Bonus points are non-redeemable, sorry!
 
-Although our group didnt get get any of the bonus levels, here is the blow by blow development of our code for the Celebrity Name Smash.
+Although our group didn't get get any of the bonus levels, here is the blow by blow development of our code for the Celebrity Name Smash.
 
 <!-- more -->
 
@@ -34,13 +34,13 @@ This created a simple project using Clojure 1.8.0.  If we had chosen to use `clo
 
 # Modeling the Celebrities
 
-The simplest way to represent a celebrity name is in a string.  So we bount a name called `celebrities` to a string containing the first celebrity we could think of
+The simplest way to represent a celebrity name is in a string.  So we bound a name called `celebrities` to a string containing the first celebrity we could think of
 
 ```clojure
-(def celbrties "Brad Pitt")
+(def celebrities "Brad Pitt")
 ```
 
-As we want to have two celebrties then we changed the data structure into a Clojure vector.  A vector is the most flexible data structure in Clojure.  So we redefined the name `celebrities` to be bound to a vector of strings containing the first celebrity couple we could think of.
+As we want to have two celebrities then we changed the data structure into a Clojure vector.  A vector is the most flexible data structure in Clojure.  So we redefined the name `celebrities` to be bound to a vector of strings containing the first celebrity couple we could think of.
 
 ```clj
 (def celebrities ["Brad Pitt" "Angelina Jolie"])
@@ -62,7 +62,7 @@ From a quick Google we found the [clojure.string/split](https://clojuredocs.org/
 
 The regular expression pattern `" "` matches the space characters.  We could have also used `#"+s"` for the same results in this example, although it was felt that the space was clearer in intent.
 
-So we wrote a function called `name-split` to take a first and last name as a string and return two seperate strings, one for the first name and one for the last name.
+So we wrote a function called `name-split` to take a first and last name as a string and return two separate strings, one for the first name and one for the last name.
 
 
 ```clojure
@@ -80,7 +80,7 @@ We tested the `name-split` function in the repl
 ;; =>["Brad" "Pitt"]
 ```
 
-We could now succesfully split the full name of a celebrity into their first and last names.
+We could now successfully split the full name of a celebrity into their first and last names.
 
 > A more advanced example of splitting up words would be to use re-seq with a regex patter, as in the [HHGTTG book processing example in clojure-through-code](https://github.com/practicalli/clojure-through-code/blob/master/src/clojure_through_code/xx-hhgttg-book.clj).
 
@@ -89,7 +89,7 @@ We could now succesfully split the full name of a celebrity into their first and
 
 As the aim of our code is to create silly and weird names from celebrity names, we wont get the desired results with just the first and last names.  So we take those and split them.
 
-At first we decided to split them in half, rounding down for odd lenght names.
+At first we decided to split them in half, rounding down for odd length names.
 
 As a Clojure String can be used like a collection of characters, we could simply `take` the first x number of characters.
 
@@ -166,12 +166,12 @@ We created a function that takes the name as a argument and returns the substrin
   (let [end (/ (count name) 2)]
     (subs name 0 end)))
 
-;; calling the function with an odd lenght name
+;; calling the function with an odd length name
 (first-celeb-subname "Bradley")
 ;; => "Bra"
 ```
 
-We used the `let` function to create a local name (symbol) called `end` that points to the end position in the string, based on dividing the name by 2.  Then we call the `subs` fuction to get the substring from 0 to the value of `end`.
+We used the `let` function to create a local name (symbol) called `end` that points to the end position in the string, based on dividing the name by 2.  Then we call the `subs` function to get the substring from 0 to the value of `end`.
 
 
 # Creating a more random sub-name function

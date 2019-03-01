@@ -59,7 +59,7 @@ We can also flatten the result to make it look nicer
 ------------------------------------------
 
 > #### Note::Name splitting function
-> Write a function called `name-split` that a full name as a string and return two seperate strings, one for the first name and one for the last name.
+> Write a function called `name-split` that a full name as a string and return two separate strings, one for the first name and one for the last name.
 ```eval-clojure
 ()
 ```

@@ -22,7 +22,7 @@ When you choose "Command Prompt," your screen should look similar to this:
 
 If you have never used the command prompt before, you may want to spend some time [reading up on command prompt basics](http://dosprompt.info/). For the rest of this setup, I will tell you to run commands in your command prompt. When I say that, I mean "type the command into the command prompt and press the Return key."
 
-On other operating systems, the command prompt is called the terminal. We will use the terms terminal, command prompt, and command line interchangably.
+On other operating systems, the command prompt is called the terminal. We will use the terms terminal, command prompt, and command line interchangeably.
 
 ## Installing Git
 
@@ -95,7 +95,7 @@ Once you have downloaded the right Java version, run the executable you download
 
 Leiningen is a tool used on the command line to manage Clojure projects.
 
-> see troubleshooing for leiningen installation
+> see troubleshooting for leiningen installation
 
 Next, go back to [the Leiningen Windows installer site](http://leiningen-win-installer.djpowell.net/) and download the file linked as "leiningen-win-installer." Run this executable and follow the "Detailed installation" section at the Leiningen Windows Installer site. At the end of the installation, leave "Run a Clojure REPL" checked before you click "Finish." If a terminal window opens that looks like the one on the Leiningen Windows installer site, then you are good to go.
 

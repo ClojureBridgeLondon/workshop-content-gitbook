@@ -210,10 +210,10 @@ your install and setup are all completed!
 
 ## For convenience
 
-### automatic closing of parentesses
+### automatic closing of parentheses
 
 [Enabling auto-closing parens.](http://stackoverflow.com/questions/27818505/light-table-parentheses-are-not-auto-closing)
-__This has been disabled, because it tends to break with none english kayboard layouts!__
+__This has been disabled, because it tends to break with none english keyboard layouts!__
 But if you use the EN layout you should be fine.
 
 Quote from the link:

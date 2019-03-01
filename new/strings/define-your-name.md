@@ -21,7 +21,7 @@ Using strings we can represent information about ourselves
 <hr />
 
 > #### Note::Define some skills you have
-> Use another string to define some skills or experiences you have aquired
+> Use another string to define some skills or experiences you have acquired
 ```eval-clojure
 "Creating plans for world domination"
 ```

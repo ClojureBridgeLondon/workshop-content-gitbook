@@ -1,4 +1,4 @@
-# Exercise: Tubmbler Wheels Lock combinations
+# Exercise: Tumbler Wheels Lock combinations
 
 You have just bought a new safe to keep all the riches you will gain from becoming a Clojure developer (hopefully).  The safe has a 3 tumbler wheel combination lock to protect your new found wealth.  Each tumbler wheel has the numbers 0 to 9.
 

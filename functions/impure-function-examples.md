@@ -44,7 +44,7 @@ This example creates a new date object using the JavaScript `Date` class from th
 (task-complete "hack clojure")
 ```
 
-When we call task complete we have no control over the date that the funciton uses.
+When we call task complete we have no control over the date that the function uses.
 
 
 <!--sec data-title="Java version of the example" data-id="answer002" data-collapse=true ces-->

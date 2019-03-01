@@ -41,7 +41,7 @@ Combinations can be returned as a collection, eg. a vector.
 
 ## Alternative Exercises
 
-Here are some excercises that could also be solved with list comprehension
+Here are some exercises that could also be solved with list comprehension
 
-* Fizbuzz
+* Fizzbuzz
 

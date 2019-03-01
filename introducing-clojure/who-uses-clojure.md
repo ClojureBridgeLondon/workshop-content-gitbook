@@ -3,7 +3,7 @@
 There are many companies using Clojure as either their main development language or for building specific applications and services.  Here are just a few examples from the UK.  Further examples are discussed in the [Clojure in... series by JUXT](https://juxt.pro/clojure-in.html)
 
 
-![Funding Cirlce logo](/images/funding-circle-logo.png)
+![Funding Circle logo](/images/funding-circle-logo.png)
 
 [Funding Circle](https://www.fundingcircle.com/) is a high profile peer-to-peer lending marketplace that allows investors to lend money directly to small and medium-sized businesses. It is built on a big idea: "To revolutionise the outdated banking system and secure a better deal for everyone".
 

@@ -24,7 +24,7 @@ maps, or a list of vectors, or whatever combination fits your data.
 
 ## Maps of Maps & Vectors
 
-A simple model of the Starwars characters and vehicles
+A simple model of the Star Wars characters and vehicles
 
 ```eval-clojure
 (def sci-fi

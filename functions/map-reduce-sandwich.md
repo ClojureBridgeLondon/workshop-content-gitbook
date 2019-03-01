@@ -2,7 +2,7 @@
 
 A common pattern when manipulating lots of data can be described using the Map-Reduce Sandwich analogy.
 
-![Map Reduce Sandwidch](../images/map-reduce-sandwich.png)
+![Map Reduce Sandwich](../images/map-reduce-sandwich.png)
 
 
 > #### Note::Write the map reduce sandwich
@@ -33,7 +33,7 @@ A common pattern when manipulating lots of data can be described using the Map-R
 ## Map Slice over the ingredients
 
 ```clojure
-(def prepared-ingredience
+(def prepared-ingredients
   (map slice ["bread" "cucumber" "pepper" "tomato" "lettuce" "onion"]))
 ```
 
@@ -41,10 +41,10 @@ A common pattern when manipulating lots of data can be described using the Map-R
 ## Reduce our ingredients to a sandwich
 
 ```clojure
-(defn make-sandwich [ingredience]
-  (reduce str (interpose ", " ingredience)))
+(defn make-sandwich [ingredients]
+  (reduce str (interpose ", " ingredients)))
 
-(str "A tasty sandwich made with " (make-sandwich prepared-ingredience))
+(str "A tasty sandwich made with " (make-sandwich prepared-ingredients))
 ```
 
 

@@ -44,10 +44,10 @@ You can also assign the results of functions to symbols, which is very useful fo
 We can use `def` to give a name to something we already know, like a string
 
 ```clojure
-(def jenny-loves "Jenny loves rubarb crumble and vanilla custard")
+(def jenny-loves "Jenny loves rhubarb crumble and vanilla custard")
 ```
 
-We can also use `def` to give a name to something we dont know yet, eg. a calculation.
+We can also use `def` to give a name to something we don't know yet, eg. a calculation.
 
 In the following example, we use `def` to give names to the number of each type of fruit.
 

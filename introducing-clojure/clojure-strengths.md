@@ -10,11 +10,11 @@
 * an efficient way to manage state changes via **persistent data structures** & **software transactional memory**
 
 > ####Hint::Avoid state changes means simpler code
-In functional programming we avoid changing state as much as possible.  If a function does not change state it always returns the same result when given the same input (arguments).  These are referred to as Pure Functions.  Pure functions are truely modular as they do not affect any other part of the system and do not require complex threading to make a system scale.
+In functional programming we avoid changing state as much as possible.  If a function does not change state it always returns the same result when given the same input (arguments).  These are referred to as Pure Functions.  Pure functions are truly modular as they do not affect any other part of the system and do not require complex threading to make a system scale.
 
 ## Dynamic Language & runtime environment (REPL)
 * quickly explore your problem domain by evaluating code on the fly in the REPL
-* new code is compiled as evaluated, no seperate compile cycle or wait time
+* new code is compiled as evaluated, no separate compile cycle or wait time
 * very small language syntax, extensible via macros
 
 > A lot of the best programmers and the most productive programmers I know are writing everything in Clojure and swearing by it, and then just producing ridiculously sophisticated things in a very short time. And that programmer productivity matters. Adrian Cockcroft - Battery ventures, formally Cloud Architect, Netflix

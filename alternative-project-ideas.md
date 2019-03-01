@@ -44,7 +44,7 @@
 
 <hr />
 
-> ####TODO::Review suitablity of these projects for Clojurebridge London
+> ####TODO::Review suitability of these projects for Clojurebridge London
 
 
 

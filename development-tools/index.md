@@ -10,7 +10,7 @@ Coaches can help you set up development tools on your laptop if you wish to cont
 | Leiningen       | `lein version`   | [Leiningen install](leiningen.html) |
 | Git             | `git --version`  | https://git-scm.com/                |
 
-Clojure is a hosted language and runs on top of Java or JavaScript (and other platforms).  The Java Runtime Enviromment (JRE is needed to run Clojure.
+Clojure is a hosted language and runs on top of Java or JavaScript (and other platforms).  The Java Runtime Environment (JRE is needed to run Clojure.
 
 Leiningen is a build tool for running Clojure code, creating and managing projects.
 

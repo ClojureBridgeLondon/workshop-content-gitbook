@@ -11,7 +11,7 @@ If anyone attending does not have access to a laptop running one of the above ch
 
 By the end of these instructions, you will have the following installed:
 
-* **Java standard edition (SE)** - Clojure runs on top of Java.  The Java Runtime Enviromment (JRE) is needed to run Clojure .
+* **Java standard edition (SE)** - Clojure runs on top of Java.  The Java Runtime Environment (JRE) is needed to run Clojure .
 * **Leiningen** - a tool for running Clojure programs, also creating & managing Clojure projects
 * **LightTable** - an easy to use development tool for Clojure and other programming languages
 * **Git** - versioning your Clojure code (so you can go back to earlier versions if you make a mistake)
@@ -93,7 +93,7 @@ Show line numbers on the left hand side of the editor
 
 **don't wrap lines**
 
-Dont wrap a line of text around if they are to long for the screen:
+Don't wrap a line of text around if they are to long for the screen:
 
 > `[:editor :lt.objs.editor/no-wrap]`
 

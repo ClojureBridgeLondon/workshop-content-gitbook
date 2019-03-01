@@ -8,7 +8,7 @@ At the March 2016 London Clojurians code dojo at uSwitch our group created a Cla
 
 In the 33rd Discworld novel called [Going Postal](https://en.wikipedia.org/wiki/Going_Postal), messages are sent faster than a speeding horse via the [Clacks](https://en.wikipedia.org/wiki/Technology_of_the_Discworld#The_clacks) system.  This composes of a series of towers that cross a continent and pass messages on via combinations of lights.  Each tower sees a grid of lights from a distant tower and sends the message on to the next tower.
 
-> The Clacks system was actually introduced in the 24th Discworld novel called "The Fith Elephant", however its the "Going Postal" book where we learn the full history of the Clacks system.
+> The Clacks system was actually introduced in the 24th Discworld novel called "The Fifth Elephant", however its the "Going Postal" book where we learn the full history of the Clacks system.
 
 We created a Clacks Interpreter that converts any English message into its corresponding clacks signal, based on the [Clacks alphabet](https://boardgamegeek.com/image/1670734/clacks-discworld-board-game) as defined by the board game of the same name.  The board game defines the alphabet as a 2 by 3 grid (although in the Discworld its actually 8 large squares).  Naturally, the interpreter also converts the Clacks signal back into an English message too.
 
@@ -25,7 +25,7 @@ We wanted to be able to take any English language messages and transmit it acros
 
 # Representing a Clack
 
-For each clack, we read the pattern from the top of the first column to the botton, then from the top of the second column to the bottom.  A light in a position represents a 1 value and no light represents a 0 value.  This gives us our 6 number pattern for each clack in the alphabet.
+For each clack, we read the pattern from the top of the first column to the bottom, then from the top of the second column to the bottom.  A light in a position represents a 1 value and no light represents a 0 value.  This gives us our 6 number pattern for each clack in the alphabet.
 
 
 ## Deciding the data structure
@@ -62,7 +62,7 @@ Calling the function converts a string into the corresponding clack
 (character->clack "a")
 ```
 
-Although the code is simple for 1 character, it does hightlight the problem of converting the whole alphabet.  We would need either a deeply nested set of if statements or a very long case statement, neither of which seems to be a particularly functional approach or idiomatic Clojure.
+Although the code is simple for 1 character, it does highlight the problem of converting the whole alphabet.  We would need either a deeply nested set of if statements or a very long case statement, neither of which seems to be a particularly functional approach or idiomatic Clojure.
 
 Even if we did use a case statement, how would we convert a clack back into a character?
 
@@ -79,7 +79,7 @@ A map data structure in Clojure is a hash map (a key & value paring) for example
 {:name "john" :age "21" :twitter "jr0cket"}
 ```
 
-Its very common to use Clojure keywords for the keys, to make it easy to look up a particular value by refering to the keyword.
+Its very common to use Clojure keywords for the keys, to make it easy to look up a particular value by referring to the keyword.
 
 So the new design for our clacks data structure is as follows
 
@@ -87,7 +87,7 @@ So the new design for our clacks data structure is as follows
 {:a [0 1 0 0 0 1]}
 ```
 
-To help with testing this new data structure desing, we crated enough letters of the clacks alphabet to make some simple words, i.e bat
+To help with testing this new data structure design, we crated enough letters of the clacks alphabet to make some simple words, i.e bat
 
 ```clojure
 (def alphabet {:a [0 1 0 0 0 1]
@@ -141,7 +141,7 @@ We used the `map` function to apply a conversion function over each element in t
   (map clacksify word))
 ```
 
-Now we could convert any workd that used the letters of our limted alphabet.  We chose bat as a simple word.
+Now we could convert any word that used the letters of our limited alphabet.  We chose bat as a simple word.
 
 ```clojure
 (string->clacks "bat")
@@ -187,7 +187,7 @@ So calling these functions with a clacks
 ;; => ("b" "a" "t")
 ```
 
-> Its probably at this point we should have realised that we didnt need to use keywords to represent the characters of the alphabet.  In fact, using keywords made a little more work for us.
+> Its probably at this point we should have realised that we didn't need to use keywords to represent the characters of the alphabet.  In fact, using keywords made a little more work for us.
 
 
 # Tyding up the output
@@ -205,14 +205,14 @@ Using the `reduce` function we can apply the `str` function over the resulting c
 
 # Working with another language
 
-Thanks to a flexible design with no side effects or side causes then its really easy to replace the English language alphabet with another language that can be encoded into Clack codes.  So languages based on the greek, latin or cyrilic alphabet could be send if a suitable alphabet with clack codes is supplied.
+Thanks to a flexible design with no side effects or side causes then its really easy to replace the English language alphabet with another language that can be encoded into Clack codes.  So languages based on the greek, latin or cyrillic alphabet could be send if a suitable alphabet with clack codes is supplied.
 
 # Summary
 
 We were quite happy with the code produced in this dojo.  The code is pretty readable we believe and we have taken a fairly simple approach to the design.  In hindsight we could have made the code even easier if we had tested out the map data structure a little more and used a string character for each letter in the alphabet.
 
-Working in an editor attached to a REPL worke well (Vim in this case, but not relevant to the development of the code).  The behaviour of the code was tested with almost every expression, so we gained a good understanding of each line of code.
+Working in an editor attached to a REPL worked well (Vim in this case, but not relevant to the development of the code).  The behaviour of the code was tested with almost every expression, so we gained a good understanding of each line of code.
 
-There are ideas to take this further and show a visual representation of a message passing through a chain of clack tower, showing how the message would pass through the system at a human speed.  This woud assume a fixed time to show a clacks between each clack tower and a minimum level of speed by the human part of the clacks tower.
+There are ideas to take this further and show a visual representation of a message passing through a chain of clack tower, showing how the message would pass through the system at a human speed.  This would assume a fixed time to show a clacks between each clack tower and a minimum level of speed by the human part of the clacks tower.
 
 No REPL's were harmed in the making of this code, although one REPL was heavily used.
