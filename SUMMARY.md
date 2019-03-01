@@ -3,6 +3,7 @@
 ## Friday Overview
 
 * [ClojureBridge London](introduction.md)
+    * [Schedule](schedule.md)
 * [Introducing Clojure](introducing-clojure/index.md)
     * [Simple - Small Syntax](introducing-clojure/simple-small-syntax.md)
     * [Powerful - many uses of Clojure](introducing-clojure/who-uses-clojure.md)
