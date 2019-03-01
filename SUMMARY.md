@@ -3,7 +3,6 @@
 ## Friday Overview
 
 * [ClojureBridge London](introduction.md)
-    * [Using this workshop](using-this-workshop.md)
 * [Introducing Clojure](introducing-clojure/index.md)
     * [Simple - Small Syntax](introducing-clojure/simple-small-syntax.md)
     * [Powerful - many uses of Clojure](introducing-clojure/who-uses-clojure.md)
@@ -35,8 +34,8 @@
 
 ## Saturday workshop
 
-* [Introductions](introductions.md)
 * [Overview](clojurebridge-workshop.md)
+    * [Using this workshop](using-this-workshop.md)
     * [Recap: What does Clojure look like](recap-what-does-clojure-look-like.md)
     * [Comments](comments.md)
 * [Level 1- Simple Values](simple-values/index.md)
