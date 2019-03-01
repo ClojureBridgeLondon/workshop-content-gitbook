@@ -6,9 +6,8 @@ All these editors support Clojure development.  Use an editor you are familiar w
 |------------------------------------------------------------------------------------------------|
 | [Atom & ProtoREPL](atom-protorepl.html) or [Atom & Proton](atom-proton.html)                   |
 | [Microsoft VSCode & Calva](vscode-calva.html)                                                  |
-| [Spacemacs](emacs-spacemacs.html)  (TODO)                                                      |
-| [Emacs & CIDER](emacs-cider.html)  (TODO)                                                      |
-| [IntelliJ & Cursive](intellij-cursive.html)   (TODO)                                           |
+| [Spacemacs](emacs-spacemacs.html)                                                       |
+| [IntelliJ & Cursive](intellij-cursive.html)                                              |
 | [LightTable](https://github.com/ClojureBridgeLondon/curriculum/blob/gh-pages/outline/setup.md) |
 
 

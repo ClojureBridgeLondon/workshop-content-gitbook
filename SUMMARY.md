@@ -23,12 +23,14 @@
             * [VS Code - Calva](development-tools/install-guides/vscode-calva.md)
             * [Emacs - Spacemacs](development-tools/install-guides/emacs-spacemacs.md)
             * [IntelliJ - Cursive](development-tools/install-guides/intellij-cursive.md)
+        * [Create a project](development-tools/create-a-project.md)
         * [Editor User Guides](development-tools/editor-guides/index.md)
             * [Atom.io - Protorepl](development-tools/editor-guides/atom-protorepl.md)
             * [Atom.io - Proton](development-tools/editor-guides/atom-proton.md)
             * [Emacs - Spacemacs](development-tools/editor-guides/emacs-spacemacs.md)
             * [VS Code - Calva](development-tools/editor-guides/vscode-calva.md)
             * [IntelliJ - Cursive](development-tools/editor-guides/intellij-cursive.md)
+        * [Example project](development-tools/example-project.md)
 * [Getting Help](introducing-clojure/getting-help.md)
 
 ## Saturday workshop
