@@ -3,21 +3,25 @@
 There are many companies using Clojure as either their main development language or for building specific applications and services.  Here are just a few examples from the UK.  Further examples are discussed in the [Clojure in... series by JUXT](https://juxt.pro/clojure-in.html)
 
 
-![Funding Circle logo](/images/funding-circle-logo.png)
+------------------------------------------
 
-[Funding Circle](https://www.fundingcircle.com/) is a high profile peer-to-peer lending marketplace that allows investors to lend money directly to small and medium-sized businesses. It is built on a big idea: "To revolutionise the outdated banking system and secure a better deal for everyone".
+[![Signal Media](/images/signal-ai-logo.png)](https://www.signal-ai.com/)
 
-The business is now global lending huge amounts of money in various countries. In order to carry doing this successfully and to grow further, they need their technology to be streamlined and efficient.
+[Signal Media](https://www.signal-ai.com/) has build an Artificial Intelligence system that accurately translates intelligence over 5 million sources a day and surfaces the relevant information to customers in real-time.
 
-They originally used Ruby throughout, but now they have over 40 Clojure developers spread across multiple countries including the US and the UK.
+Each piece of content needs to be understood: what it is about? Who is being mentioned? Is it 'apple' the fruit or Apple the company?
 
-Clojure is used extensively for the performance sensitive back-end services, for example making decisions on who to give loans to, the accounting system, and the handling of interactions with the upstream banks.
+Signal uses natural language processing and machine learning to understand the context of information, eg. if apple is mentioned, is it the fruit or the company?.
+
+Signal perform spam detection (filtering), language detection and translation (40 different languages from 90 different countries) anomaly detection and sentiment analysis.  The results made searchable so you can ask questions like: Show me all the tweets and blog posts about Clojure.
+
+* Blog: [ClojureBridge - A free programming workshop](http://www.signal-ai.com/blog/clojurebridge-a-free-programming-workshop)
 
 ------------------------------------------
 
 ![Walmart logo - new](/images/Walmart-logo-new.jpg)
 
-Walmart are one of the largest retailers across the United States of America.  Every single sale they make is managed by a system written in Clojure.
+Walmart are one of the largest retailers across the United States of America making $120 Billion annually.  Every single sale they make is managed by a system written in Clojure.
 
 In just one day they had a record 133 Million people buying over $50 Million worth of products across 5,000 physical stores and the online store.
 
@@ -25,16 +29,13 @@ In just one day they had a record 133 Million people buying over $50 Million wor
 
 ------------------------------------------
 
-[![Signal Media](/images/signal-media-logo.png)](/images/signal-media-logo.png)
+![NASA logo](/images/nasa-logo.png)
 
+NASA's [Earth Science Data Information System (ESDIS) project](https://earthdata.nasa.gov/about/esdis-project) is responsible for providing access to Earth Observation data and services to an ever-growing user community including — but not limited to — Earth scientists, educators, other government agencies, decision makers, and the general public. As data archives grow and more data becomes accessible online — cataloging, searching, and extracting relevant data from these archives becomes a critical part of Earth science research.
 
-[Signal Media](http://signalmedia.co/) is a machine learning company extracting knowledge from 3 million documents a day from newspapers, magazines, broadcasts, and online publications.
+[Common Metadata Repository (CMR)](https://github.com/nasa/Common-Metadata-Repository) is an earth science metadata repository for NASA EOSDIS data. The CMR Search API provides access to this metadata.
 
-Each piece of content needs to be understood: what it is about? Who is being mentioned? Is it 'apple' the fruit or Apple the company? Is it the Trump company being mentioned or the Donald Trump presidency? To face up against these challenges
-
-Signal uses natural language processing and machine learning to understand the context of information, eg. if apple is mentioned, is it the fruit or the company?.
-
-Signal perform spam detection (filtering), language detection and translation (40 different languages from 90 different countries) anomaly detection and sentiment analysis.  The results made searchable so you can ask questions like: Show me all the tweets and blog posts about Clojure.
+![NASA Earth Science Data Operations](https://cdn.earthdata.nasa.gov/conduit/upload/953/Earth-Science-Data-Operations-10022014.jpg)
 
 ------------------------------------------
 
@@ -60,6 +61,20 @@ Machine learning is applied the experiences shared by their users to information
 Networks are operated by charities and patient groups.  HealthUnlocked simply provides the tools for these organisations to manage their communities.
 
 ------------------------------------------
+
+![Funding Circle logo](/images/funding-circle-logo.png)
+
+[Funding Circle](https://www.fundingcircle.com/) is a high profile peer-to-peer lending marketplace that allows investors to lend money directly to small and medium-sized businesses. It is built on a big idea: "To revolutionise the outdated banking system and secure a better deal for everyone".
+
+The business is now global lending huge amounts of money in various countries. In order to carry doing this successfully and to grow further, they need their technology to be streamlined and efficient.
+
+They originally used Ruby throughout, but now they have over 40 Clojure developers spread across multiple countries including the US and the UK.
+
+Clojure is used extensively for the performance sensitive back-end services, for example making decisions on who to give loans to, the accounting system, and the handling of interactions with the upstream banks.
+
+------------------------------------------
+
+
 
 [![Metail](/images/metail-logo.png)](/images/metail-logo.png)
 
