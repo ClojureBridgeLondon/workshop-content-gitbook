@@ -2,14 +2,23 @@
 
 
 > #### Note::Model Yourself
-Make a map representing yourself, using only the information about yourself you want to share.
-> 
+> Make a map representing yourself, using only the information about yourself you want to share.
+>
 > Example information could include: your first name and last names, where you grew up, favourite food.
-> 
-> Add some information directly to the map, then use [assoc](http://grimoire.arrdem.com/1.6.0/clojure.core/assoc/) or [merge](http://grimoire.arrdem.com/1.6.0/clojure.core/merge/) to add more.
+>
+> Add some information directly to the map, then use [assoc](https://clojuredocs.org/clojure.core/assoc) or [merge](https://clojuredocs.org/clojure.core/merge) to add more.
 ```eval-clojure
-()
+{}
 ```
+
+<!--sec data-title="Reveal answer..." data-id="answer001" data-collapse=true ces-->
+
+```clojure
+{:name "Jenny" :age 21 :location "London, UK" :hobbies "cycling"}
+```
+
+<!--endsec-->
+
 
 <hr />
 
@@ -20,15 +29,15 @@ Make a map representing yourself, using only the information about yourself you 
 >
 > Add your map to their information using [conj](http://clojuredocs.org/clojure.core/conj).
 ```eval-clojure
-()
+[{}]
 ```
 
 
-<!--sec data-title="Reveal answer..." data-id="answer001" data-collapse=true ces-->
+<!--sec data-title="Reveal answer..." data-id="answer002" data-collapse=true ces-->
 
-> #### Todo::Add example answer
+```clojure
+[{:name "Jenny" :age 21 :location "London, UK" :hobbies "cycling"}
+{:name "Sammy" :age 24 :location "Madrid, Spain" :hobbies "origami"}]
+```
 
 <!--endsec-->
-
-
-

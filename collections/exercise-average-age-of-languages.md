@@ -31,10 +31,22 @@ We could also use a function called `count` to get the total number of ages.  Th
    (count [10 27 26  21 22 22 45 34 59 60]))
 ```
 
-The [min](https://clojuredocs.org/clojure.core/min) function will simplify our expression
+The [min](https://clojuredocs.org/clojure.core/min) function will simplify our expression but we need to pass the individual numbers
 
 ```clojure
-(min [10 27 26 21 22 22 45 34 59 60])
+(min 10 27 26 21 22 22 45 34 59 60)
+```
+
+To use `min` with the vector collection, we would need to use the `apply` function and give `min` and the vector as its arguments.
+
+The `apply` function essentially re-writes the code so that every element in the vector becomes an argument to the `min` function.
+
+```clojure
+(apply min [10 27 26  21 22 22 45 34 59 60])
+
+;; becomes
+
+(min 10 27 26 21 22 22 45 34 59 60)
 ```
 
 There are over 600 functions in clojure.core so there is often a function you are looking for to simplify you code
