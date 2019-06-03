@@ -1,5 +1,7 @@
 # Atom.io and Proton user guide
 
+
+
 A simplified user guide to get you started quickly and a [list of keyboard shortcuts](#keybindings-and-events).
 
 Please take a look at the [Proton documentation](https://github.com/dvcrn/proton/blob/master/MANUAL.md) for a detailed guide.

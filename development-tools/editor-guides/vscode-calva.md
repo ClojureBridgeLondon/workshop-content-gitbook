@@ -2,6 +2,9 @@
 
 Open the VSCode editor and start a REPL for your project.  Then add your Clojure project and connect to your REPL.
 
+> ####HINT::MacOSX Keys - Option or Alt
+> Depending on the version of Mac computer you use, your Alt key may be called Option
+> So `Ctrl+Alt+v e` would be `Ctrl+Option+v e`
 
 ## Open Project Folder in VSCode
 
@@ -15,9 +18,10 @@ Open the `project.cj` file and add the following dependencies
 
 ```clojure
 (defproject playground "0.1.0-SNAPSHOT"
-  :dependencies [[org.clojure/clojure "1.8.0"]
-                 [nrepl               "0.5.3"]
-                 [cider/cider-nrepl   "0.20.0"]])
+  :dependencies [[org.clojure/clojure "1.10.0"]
+                 [nrepl               "0.6.0"]
+                 [cider/cider-nrepl   "0.21.2-SNAPSHOT"]
+                 ])
 ```
 
 
@@ -49,6 +53,10 @@ In the bottom left of Atom, check the status of the **nrepl** connection.  If yo
 ## Developing your project ##
 
 Once you have a running REPL, use these commands to help you develop your code.
+
+> ####HINT::MacOSX Keys - Option or Alt
+> Depending on the version of Mac computer you use, your Alt key may be called Option
+> So `Ctrl+Alt+v e` would be `Ctrl+Option+v e`
 
 | Evaluate code             | Keybinding         | Description                                                 |
 |---------------------------|--------------------|-------------------------------------------------------------|

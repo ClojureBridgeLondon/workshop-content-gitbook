@@ -36,27 +36,32 @@ sudo update-alternatives --config java
 <!-- Homebrew (MacOSX) install -->
 {% content "second" %}
 
-If you use [Homebrew](https://brew.sh/), then run the following commands in a terminal:
+Using [Homebrew](https://brew.sh/), run the following command in a terminal to install Java 11:
+
+```bash
+brew cask install adoptopenjdk11
+```
+
+If that command does not work, use this instead to install the latest version.
 
 ```bash
 brew tap AdoptOpenJDK/openjdk
-brew install adoptopenjdk-openjdk8
 ```
 
 > #### Hint::Switching between Java versions
 > You can run more than one version of Java on MacOS. Set the Java version by opening a terminal and using one of the following commands
 >
-> List Java versions installed
+> Show the Java versions installed
 ```bash
 /usr/libexec/java_home -V
 ```
 >
-> Switch to Java version 1.8 (recommended)
+> Switch to Java version 1.8
 ```bash
 export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
 ```
 >
-> Change back to Java version 11 (not recommended)
+> Change back to Java version 11
 ```bash
 export JAVA_HOME=$(/usr/libexec/java_home -v 11)
 ```
