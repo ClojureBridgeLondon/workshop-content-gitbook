@@ -14,7 +14,11 @@
 https://www.youtube.com/watch?v=r8YKC7Qugm8)
 {% endyoutube %}
 
-## IOT / Lightshows
+## IOT / Lightshows / Art Installations
+
+![Cosmoscope - art installation designed with Clojure](/images/cosmosphere-london-lumiere-festival.jpg)
+
+* [Cosmoscope](http://cassiel.com/project/cosmoscope/) is an art installation from the 2018 Lumiere Festival of Light, created by a team of artists and scientists culminating in a monumental sound and light sculpture. Inspired by historical astronomical instruments and models of the cosmos, it looks at the infinitesimal to the infinite.  Animation of the light sculpture was driven by [Dr Nick Rothwell](http://cassiel.com/project/cosmoscope/) using ClojureScript.
 
 * [Afterglow](https://github.com/brunchboy/afterglow) live coding for the creation of algorithmic light shows in Clojure using the Open Lighting Architecture, ola-clojure, wayang, beat-link, and pieces of the Overtone toolkit.  See the [presentation from Clojure Madison meetup, 2016](https://www.youtube.com/watch?v=mvNN0SMMZDQ)
 
