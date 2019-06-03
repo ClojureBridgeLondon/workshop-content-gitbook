@@ -36,12 +36,9 @@
         * [Example project](development-tools/example-project.md)
 * [Getting Help](introducing-clojure/getting-help.md)
 
-## Saturday workshop
+## Saturday
 
 * [Overview](clojurebridge-workshop.md)
-    * [Using this workshop](using-this-workshop.md)
-    * [Recap: What does Clojure look like](recap-what-does-clojure-look-like.md)
-    * [Comments](comments.md)
 
 ## Colours and Shapes
 
@@ -90,9 +87,7 @@
     * [Exercise: Find the average](functions/exercise-find-the-average.md)
     * [Exercise: Map Reduce Sandwich](functions/map-reduce-sandwich.md)
     * [Exercise: are we there yet?](functions/exercise-are-we-there-yet.md)
-    * [Theory: Simplicity with Pure Functions](functions/pure-functions.md)
-        * [Pure function examples](functions/pure-function-examples.md)
-        * [Impure function examples](functions/impure-function-examples.md)
+
 * [Level 5 - Flow Control & Logic](flow-control-logic/index.md)
     * [Boolean values](simple-values/boolean.md)
     * [if](flow-control-logic/if.md)
@@ -105,8 +100,8 @@
 * [Level 6 - Iteration](iteration/index.md)
     * [Exercise: Combination Lock](iteration/exercise-combination-lock.md)
 
-## Challenges and Projects
-* [Challenges & Projects](challenges-projects.md)
+## More Challenges & Projects
+* [More Challenges & Projects](challenges-projects.md)
 * [Kata challenges](kata-challenges/index.md)
     * [Recent Song Playlist](kata-challenges/recent-song-playlist.md)
     * [Testing code](kata-challenges/testing-code.md)
@@ -115,19 +110,27 @@
     * [Most Common Word](https://clojurebridgelondon.github.io/community-docs/docs/curriculum/most-common-word)
     * [Celebrity Name Smash](additional-projects/celebrity-name-smash.md)
     * [Clack Messages](additional-projects/clacks-messages.md)
+    * [ClojureBridge London website](additional-projects/clojurebridge-london-website.md)
 
+## Learning Resources
+* [Learning resources](learning-resources.md)
 
 ## Miscellaneous content
 
 * [Reference](https://clojurebridgelondon.github.io/community-docs/)
     * [Clojure strengths](introducing-clojure/clojure-strengths.md)
         * [Concurrency & Parallelism](introducing-clojure/clojure-concurrency-parallelism.md)
+    * [Theory: Simplicity with Pure Functions](functions/pure-functions.md)
+        * [Pure function examples](functions/pure-function-examples.md)
+        * [Impure function examples](functions/impure-function-examples.md)
     * [Anonymous Functions](functions/anonymous-functions.md)
         * [Named or anonymous functions](functions/named-or-anonymous-functions.md)
         * [Calling anonymous functions](functions/calling-anonymous-functions.md)
         * [Arguments to functions](functions/arguments-to-functions.md)
     * [Predicate Functions](functions/predicate-functions.md)
     * [Generating Wallpaper](introducing-clojure/generating-wallpaper.md)
+    * [Recap: What does Clojure look like](recap-what-does-clojure-look-like.md)
+    * [Comments](comments.md)
 * [Contribute](contribute.md)
     * [Fancy Keyboard Keys](fancy-keyboard-keys.md)
     * [Klipse](klipse/index.md)
