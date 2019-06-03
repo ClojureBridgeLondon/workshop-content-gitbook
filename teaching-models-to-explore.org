@@ -1,0 +1,10 @@
+* Teaching techniques to apply to ClojureBridgeLondon
+
+** Human clojure
+*** map reduce sandwich
+    Create a number of sandwiches for the Friday night by using map to slice the bread and ingreedience.
+    Then reduce the ingredience into sandwiches
+*** Immutable students
+    Pass a student into a Clojure function and get a different student out again (would be cool to use similar looking people)
+*** Draw concepts
+    Give students a pencil and paper and get them to draw concepts
