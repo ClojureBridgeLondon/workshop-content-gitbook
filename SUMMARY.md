@@ -49,6 +49,7 @@
 
 ## Coding Challenges
 
+* [Clojure Essentials](clojure-essentials.md)
 * [Level 1- Simple Values](simple-values/index.md)
     * [Numbers](simple-values/numbers.md)
     * [Arithmetic](simple-values/arithmetic.md)
