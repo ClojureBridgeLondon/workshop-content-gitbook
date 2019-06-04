@@ -8,7 +8,7 @@ Some guided projects that help you apply many of the ideas learned in the worksh
 
 ## Challenge: Build a new ClojureBridge London website
 
-Try **[build a new website for ClojureBridge London](clojurebridge-london-website.html)** and give us ideas of what you would like to see in our website.
+Try **[build a new website for ClojureBridge London](live-clojurescript-websites/index.html)** and give us ideas of what you would like to see in our website.
 
 
 ## Bigger projects
