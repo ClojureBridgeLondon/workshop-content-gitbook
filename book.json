@@ -54,7 +54,7 @@
                 {
                     "label": "GitHub",
                     "icon": "fa fa-github",
-                    "url": "https://github.com/practicalli"
+                    "url": "https://github.com/ClojureBridgeLondon/workshop-content-gitbook"
                 },
                 {
                     "label": "Search page title on StackOverflow",
