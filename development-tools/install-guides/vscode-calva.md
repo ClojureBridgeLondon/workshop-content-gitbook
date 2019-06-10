@@ -83,13 +83,15 @@ Select the Extensions icon in the left hand navigation.
 
 Type `calva` into the search box to list the relevant extensions to install
 
-![VSCode Calva Extensions list](/images/vscode-calva-extensions-list.png)
+![VSCode Calva Extensions list](/images/vscode-calva-extension.png)
 
-Click the `Install` button next to the `Calva: Clojure & ClojureScript interactive programming` extension and all three will be installed.
+Click the `Install` button next to the `Calva: Clojure & ClojureScript interactive programming` extension.
 
-* Calva: Clojure & ClojureScript interactive programming
-* Calva Clojure Formatter
-* Calva Paredit
+After a few momments the extension will show as installed.
+
+![VSCode Calva Extensions list](/images/vscode-calva-extension-installed.png)
 
 > ####HINT::No restart required
 > VSCode version 1.31.1 does not need to restart after installing the extensions.
+>
+> [Calva 2](https://marketplace.visualstudio.com/items?itemName=betterthantomorrow.calva) was released in May 2019, please remove any older extensions
