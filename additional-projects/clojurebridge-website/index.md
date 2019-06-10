@@ -14,9 +14,15 @@ You will discover how to use the following tools:
 
 ### Example ClojureScript websites
 * [ClojureBridge London](https://clojurebridgelondon.github.io/), a landing page for the event using Bulma CSS, global navigation and responsive design.
+* [ClojureBridge London source code](https://github.com/ClojureBridgeLondon/clojurebridge-landing-page)
 * [Practicalli](https://practicalli.github.io/), a landing page using Bulma CSS (similar to the above)
 * [Clojure Study Group project](https://github.com/practicalli/clojure-study-group-website) a ClojureScript and bootstrap website
 
+
+
+## Looking for something more?
+
+[pesterhazy/cljs-spa-example](https://github.com/pesterhazy/cljs-spa-example.git) is a more involved example of a Single Page Application in ClojureScript.  This project uses figwheel-main, reagent, webpack, router5, yarn package management for npms,
 
 
 ## References

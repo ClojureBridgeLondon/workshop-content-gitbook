@@ -120,10 +120,13 @@
         * [Organising the code](additional-projects/clojurebridge-website/organising-the-code.md)
         * [Add welcome message](additional-projects/clojurebridge-website/add-welcome-message.md)
         * [Add welcome section](additional-projects/clojurebridge-website/add-welcome-section.md)
+        * [Responsive design](additional-projects/clojurebridge-website/responsive-design.md)
         * [App State section](additional-projects/clojurebridge-website/app-state-section.md)
         * [GitHub pages deploy](additional-projects/clojurebridge-website/github-pages-deploy.md)
         * [Add Content namespace](additional-projects/clojurebridge-website/add-content-namespace.md)
         * [Add more sections](additional-projects/clojurebridge-website/add-more-sections.md)
+        * [Navigation bar](additional-projects/clojurebridge-website/add-navigation.md)
+        * [Interacting](additional-projects/clojurebridge-website/interacting/index.md)
     * [Cljs and Bootstrap website](additional-projects/clojurebridge-london-website.md)
 
 ## Learning Resources

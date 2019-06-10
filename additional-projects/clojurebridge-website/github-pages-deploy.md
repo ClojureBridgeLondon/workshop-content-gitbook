@@ -15,16 +15,18 @@ git remote add origin <repository URI from GitHub>
 
 There are two approaches when adding a website to a specific project.
 
-1) add files to a `gh-pages` branch (classic approach)
-2) add files to `/docs` directory (new approach)
+* add files to a `gh-pages` branch (classic approach)
+* add files to `/docs` directory on the master branch (new approach)
+
+We will use the new approach and deploy our files in `/docs`
 
 
 ### Alternative: Organisation / user Landing pages
 
 For Organisations on GitHub, like ClojureBridgeLondon and Pracitalli, I use two separate Git repositories
 
-1) ClojureScript repository - created by Leiningen / figwheel template
-2) Deployment repository - only contains specific files for deployment
+* ClojureScript repository - created by Leiningen / figwheel template
+* Deployment repository - only contains specific files for deployment
 
 
 ## Creating the files for deployment
@@ -102,7 +104,32 @@ cp resources/public/cljs-out/dev-main.cljs /docs/cljs-out/
 ```
 
 Commit the new file and push to GitHub
+```shell
 git commit -a "New version"
 git push origin master
+```
 
 If you make any changes to the index.html or css/styles.css files, then you will need to copy them into `/docs` directory and commit those changes too
+
+
+## Adding an alias for a live build
+
+Rather than copy the minified JavaScript file each time, you can create a figwheel-main build configuration to create the save the build in another location.
+
+Create a file called `live.cljs.edn`, based on the file `dev.cljs.edn`.
+
+Add a configuration line to define where the built is `:output-to`.
+
+```clojure
+^{:watch-dirs   ["test" "src"]
+  :css-dirs     ["resources/public/css"]
+  :auto-testing true}
+{:main clojurebridge-landing-page.core
+ :output-to "docs/cljs-out/dev-main.js"}
+```
+
+Then add an alias to the `project.clj` configuration to call this new build.  It will be almost the same as the fig:main alias
+
+```clojure
+"fig:live"  ["run" "-m" "figwheel.main" "-O" "advanced" "-bo" "live"]
+```
