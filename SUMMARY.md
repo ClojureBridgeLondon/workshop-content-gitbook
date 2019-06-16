@@ -125,6 +125,7 @@
     * [Responsive design](additional-projects/clojurebridge-website/responsive-design.md)
     * [App State section](additional-projects/clojurebridge-website/app-state-section.md)
     * [GitHub pages deploy](additional-projects/clojurebridge-website/github-pages-deploy.md)
+    * [Deploy build](additional-projects/clojurebridge-website/deploy-build.md)
     * [Add Content namespace](additional-projects/clojurebridge-website/add-content-namespace.md)
     * [Add more sections](additional-projects/clojurebridge-website/add-more-sections.md)
     * [Navigation bar](additional-projects/clojurebridge-website/add-navigation.md)
