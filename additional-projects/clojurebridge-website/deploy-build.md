@@ -1,6 +1,6 @@
 # Creating a Deploy build configuration
 
-Create a build configuration for deployment, to reduce the need to copy the `.js` file to the deploy location.
+Create a build configuration for deployment, to remove the need to copy the `.js` file to the deploy location.
 
 These instructions assume the `/docs` directory is used by GitHub pages for deploying the website.
 
@@ -35,3 +35,23 @@ Add a new `:aliases` line, the same as the `fig:min` line, except using `deploy`
             "fig:deploy" ["run" "-m" "figwheel.main" "-O" "advanced" "-bo" "deploy"]
             "fig:test"   ["run" "-m" "figwheel.main" "-co" "test.cljs.edn" "-m" juxt-edge.test-runner]}
 ```
+
+## Deploying updates
+
+`lein fig:deploy` will now deploy any changes to your ClojureScript app without the need to copy any files.
+
+In a terminal window open in the root of your project, run the commands:
+
+```shell
+lein clean
+lein fig:deploy
+```
+
+Then commit the new file and push to GitHub
+
+```shell
+git commit -a "Deploy version 4.2"
+git push origin master
+```
+
+If you make any changes to the index.html or css/styles.css files, then still need to copy them into `/docs` directory manually, then commit those changes too.

@@ -43,7 +43,7 @@ lein fig:min
 ```
 
 
-## `/docs` approach - add directory to GitHub
+## Add directory to GitHub
 
 Create the `/docs` and `/docs/cljs-out` directories in the project first.
 
@@ -52,7 +52,7 @@ Add a `README.md` file with a message describing the purpose of the /docs direct
 Commit the `README.md` file and push to your GitHub repository
 
 
-## `/docs** approach - set GitHub pages location
+## Set GitHub pages location
 
 Visit the GitHub repository website and update the Settings to point to `/docs as the source of GitHub pages
 
@@ -63,7 +63,7 @@ Setting > GitHub Pages > Source
 ![ClojureScript websites - Github Pages source](/images/cljs-website--github-pages-source-docs-on-master.png)
 
 
-## `/docs` approach - copy the files
+## Copy the files
 
 Copy the following files into the `/docs` directory.
 
@@ -88,7 +88,7 @@ Push the commit to GitHub
 Visit your live website at https://<your-git-account>.github.io/clojurebridge-landing-page/
 
 
-# Deploying updates
+## Deploying updates
 
 Any changes to your ClojureScript app that you want to deploy, then you only need to build the single javascrpt file again
 
@@ -110,26 +110,3 @@ git push origin master
 ```
 
 If you make any changes to the index.html or css/styles.css files, then you will need to copy them into `/docs` directory and commit those changes too
-
-
-## Adding an alias for a live build
-
-Rather than copy the minified JavaScript file each time, you can create a figwheel-main build configuration to create the save the build in another location.
-
-Create a file called `live.cljs.edn`, based on the file `dev.cljs.edn`.
-
-Add a configuration line to define where the built is `:output-to`.
-
-```clojure
-^{:watch-dirs   ["test" "src"]
-  :css-dirs     ["resources/public/css"]
-  :auto-testing true}
-{:main clojurebridge-landing-page.core
- :output-to "docs/cljs-out/dev-main.js"}
-```
-
-Then add an alias to the `project.clj` configuration to call this new build.  It will be almost the same as the fig:main alias
-
-```clojure
-"fig:live"  ["run" "-m" "figwheel.main" "-O" "advanced" "-bo" "live"]
-```
