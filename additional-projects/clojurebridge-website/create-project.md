@@ -9,7 +9,7 @@
 lein new figwheel-main clojurebridge-landing-page -- --reagent
 ```
 >
-> or the Clojure CLI tools](https://clojure.org/guides/getting_started#_clojure_installer_and_cli_tools) and [clj-new](https://github.com/seancorfield/clj-new)
+> or the [Clojure CLI tools](https://clojure.org/guides/getting_started#_clojure_installer_and_cli_tools) and [clj-new](https://github.com/seancorfield/clj-new)
 ```shell
 clj -A:new figwheel-main clojurebridge-landing-page -- --reagent # or --rum, --om, --react or nothing
 ```
