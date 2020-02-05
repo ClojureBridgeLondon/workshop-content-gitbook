@@ -44,7 +44,7 @@
 
 * [Colours & Shapes](colours-and-shapes/index.md)
 
-## Coding Challenges
+## Clojure Essentials
 
 * [Clojure Essentials](clojure-essentials.md)
 * [Level 1- Simple Values](simple-values/index.md)
