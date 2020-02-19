@@ -32,12 +32,12 @@ Conditions can be used to filter our results using `:when`, only returning value
 
 
 <!--sec data-title="Theory: List Comprehension..." data-id="answer001" data-collapse=true ces-->
-## Lisp comprehension
+## List comprehension
 
 In Clojure, list comprehension is via the [for](https://clojuredocs.org/clojure.core/for) function
 
 * Clojure docs: [for](https://clojuredocs.org/clojure.core/for)
-* Reference: [Lisp Comprehension in Clojure](https://practicalli.github.io/clojure/thinking-functionally/list-comprehension.html) - Clojure, practicalli
+* Reference: [List Comprehension in Clojure](https://practicalli.github.io/clojure/thinking-functionally/list-comprehension.html) - Clojure, practicalli
 <!--endsec-->
 
 

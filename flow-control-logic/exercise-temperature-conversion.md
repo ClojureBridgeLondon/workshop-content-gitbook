@@ -24,7 +24,7 @@
 
 > #### Hint::Formulas to convert temperatures
 > * Fahrenheit to Celsius: `(* (- Fahrenheit 32) 5/9)` = Celsius
-> * Kelvin to Celsius:     `(+ Kelvin 273.15)` = Celsius
+> * Kelvin to Celsius:     `(- Kelvin 273.15)` = Celsius
 
 
 <!--sec data-title="Reveal answer..." data-id="answer001" data-collapse=true ces-->

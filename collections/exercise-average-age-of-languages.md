@@ -49,6 +49,6 @@ The `apply` function essentially re-writes the code so that every element in the
 (min 10 27 26 21 22 22 45 34 59 60)
 ```
 
-There are over 600 functions in clojure.core so there is often a function you are looking for to simplify you code
+There are over 600 functions in `clojure.core` so there is often a function you are looking for to simplify you code
 
 <!--endsec-->

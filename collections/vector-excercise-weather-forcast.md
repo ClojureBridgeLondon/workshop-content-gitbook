@@ -2,7 +2,7 @@
 
 > #### Note::Make a vector
 > Make a vector of the high temperatures for the next 7 days in the town where you live.
-> Then use the `nth` function to get the high temperature for Tuesday.
+> Then use the `nth` function to get the high temperature for Thursday.
 ```eval-clojure
 ()
 ```

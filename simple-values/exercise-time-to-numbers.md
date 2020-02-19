@@ -50,14 +50,14 @@ To get the elapsed time in seconds, we can take the expression and wrap it with 
 
 <!--sec data-title="Reveal answer..." data-id="answer002" data-collapse=true ces-->
 
-Assuming it has been 428 seconds since the workshop started, the number of minutes could be calculated like this:
+Assuming it has been 428 minutes since the workshop started, the number of hours could be calculated like this:
 
 ```clojure
 (quot 428 60)
 ;; => 7
 ```
 
-And the number of seconds calculated like this:
+And the number of minutes calculated like this:
 
 ```clojure
 (rem 428 60)

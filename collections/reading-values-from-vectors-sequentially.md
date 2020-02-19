@@ -12,7 +12,7 @@ You can also combine these functions, so the results of one function call can be
 
 
 > #### Note::How do we get just the third value in a vector?
-> Using any of the functions `first`, `second`, `rest`, how to we get the **third** value from the vector `["Birthdays are" "full of" "presents" "that you" "always dreamd" "of having"]`
+> Using any of the functions `first`, `second`, `rest`, how to we get the **third** value from the vector `["Birthdays are" "full of" "presents" "that you" "always dreamed" "of having"]`
 ```eval-clojure
 ()
 ```
