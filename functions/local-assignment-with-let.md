@@ -7,10 +7,10 @@ Inside of a function, however, you should _not_ use `def`, like you would outsid
 * Reference: [Assignment let](http://clojurebridge.github.io/community-docs/docs/clojure/let/)
 
 ```eval-clojure
-(defn average [values]
-  (let [c (count values)
-        s (apply + values)]
-    (/ s c)))
+(defn average [& values]
+  (let [number-of-values (count values)
+        sum-of-values    (apply + values)]
+    (/ sum-of-values number-of-values)))
 
-(average [1.0 1.0 2.0 3.0 5.0])
+(average 1.0 1.0 2.0 3.0 5.0)
 ```
