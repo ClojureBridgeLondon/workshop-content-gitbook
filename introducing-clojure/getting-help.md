@@ -10,7 +10,6 @@ Create an account via [Clojurians Slack community self-service website](http://c
 | **[Clojure Docs website](https://clojure-doc.org/)**         | descriptions & examples of the functions in the Clojure language |
 | **[Clojure cheatsheet](https://clojure.org/api/cheatsheet)** | Quick reference to most common functions                         |
 | [Clojure.org](https://clojure.org/)                          | detailed description of the language and features                |
-| [Cross clj](https://crossclj.info/)                          | explore the interconnected Clojure universe                                                                 |
 
 
 ## Viewing Clojure docs in Clojure Editors
