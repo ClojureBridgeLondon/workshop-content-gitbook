@@ -68,13 +68,13 @@ Setting > GitHub Pages > Source
 Copy the following files into the `/docs` directory.
 
 ```shell
-cp resources/public/index.html /docs
+cp resources/public/index.html docs
 
-cp -r resources/public/css /docs
+cp -r resources/public/css docs
 
-cp -r resources/public/images /images
+cp -r resources/public/images images
 
-cp resources/public/cljs-out/dev-main.cljs /docs/cljs-out/
+cp resources/public/cljs-out/dev-main.js docs/cljs-out/
 ```
 
 
@@ -97,10 +97,10 @@ lein clean
 lein fig:min
 ```
 
-Then copy the new javascript file to the `/docs/cljs-out` directory
+Then copy the new javascript file to the `docs/cljs-out` directory
 
 ```shell
-cp resources/public/cljs-out/dev-main.cljs /docs/cljs-out/
+cp resources/public/cljs-out/dev-main.js docs/cljs-out/
 ```
 
 Commit the new file and push to GitHub
