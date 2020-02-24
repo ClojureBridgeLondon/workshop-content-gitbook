@@ -8,26 +8,32 @@ The [Colours and Shapes in Clojure learning path](https://www.maria.cloud/gist/9
 > Please [create a free GitHub account](https://github.com/join) if you do not already have one.
 
 
-## Copy the course so you can take notes
-
-Open the [ClojureBridge course at gist.github.com](https://gist.github.com/londonclojurians/9afbc2adf3638f1bcf6a6c08b6f33226) and login with your GitHub account.
-
-![ClojureBridge London - fork the Gist](/images/clojurebridge-maria-cloud-gist-fork.png)
-
-Fork the Gist, creating your own copy of the curriculum.  This will allow you to save changes and make notes.
-
-![ClojureBridge London - fork the Gist](/images/clojurebridge-maria-cloud-gist-fork-button.png)
-
-
 ## Sign-in to Maria.cloud
 
-Open [Maria.cloud](https://maria.cloud) and sign-in using the same GitHub account.
+Open the [Maria.cloud website](https://www.maria.cloud/) and sign-in using the same GitHub account.
+
+You may be prompted to authorize Maria.cloud access to your GitHub account.  This is safe (and can be revoked after the event)
+
+![Maria.cloud GitHub access request](/images/clojurebridge-london-maria-cloud-github-authorize-maria-.png)
 
 
-![ClojureBridge London - fork the Gist](/images/clojurebridge-maria-cloud-sign-in.png)
+## Open and duplicate the ClojureBridge London curriculum
+
+Click on the [start here](https://www.maria.cloud/cb-london) link for the Feb 2020 London ClojureBridge event
+
+![Maria.cloud ClojureBridge London course](/images/clojurebridge-london-events-london-clojure-bridge.png)
+
+Press the duplicate button to create your own copy (so you can save all your code)
+
+![Maria.cloud duplicate course](/images/clojurebridge-london-maria-cloud-duplicate.png)
+
+You should now have your own copy, as show in the top bar
+
+![Maria.cloud duplicated course](/images/clojurebridge-london-maria-cloud-duplicated-course.png)
 
 
-Open the sidebar and visit the Gists section to see your copy of the course
-
-
-![ClojureBridge London - Maria.cloud sidebar with the Gist](/images/clojurebridge-maria-cloud-sidebar-gists.png)
+> #### Hint::Duplicate not working?
+> Try logging out of maria.cloud and then logging back in again (I know, but it might work)
+>
+> If you are using Chrome, try using an Incognito browser tab or window.
+> Or try Firefox browser.
