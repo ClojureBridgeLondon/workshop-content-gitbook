@@ -74,5 +74,12 @@ So 428 minutes is the same as 7 hours and 8 minutes
 > ####Info::Representing Time and Dates
 > Most programming languages have a way to specifically represent time and dates, typically based around a calendar.  Sometimes these libraries can make it easier to work with time.
 >
-> Clojure has a library called [`clj-time`](https://github.com/clj-time/clj-time) to help you represent times and dates.
+> Clojure has a library called [`clojure.java-time`](https://cljdoc.org/d/clojure.java-time/clojure.java-time/0.3.2/doc/readme) to help you represent times and dates.
+```clojure
+(ns practicalli.what-time-is-it
+  (:require [java-time :as time]))
+(defn -main []
+  (println "The time according to Clojure java-time is:"
+           (time/local-date-time)))
+```
 > Or Clojure can also use time and date libraries from its host environment (Java, JavaScript, .Net)
