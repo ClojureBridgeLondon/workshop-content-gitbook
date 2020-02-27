@@ -1,16 +1,15 @@
 ## Map extraction with `get`
 
-`count`, every collection has this function. Why do you think the
-answer is two? `count` is returning the number of associations.
-
-Since map is a key-value pair, the key is used to get a value from a
-map. 
-
-
 ```clojure
 (count {:firstname "Sally" :lastname "Brown"})
 ;=> 2
 ```
+
+Every collection has a `count` function. Why do you think the answer is two? `count` is returning the number of associations.
+
+Since map is a key-value pair, the key is used to get a value from a
+map. 
+
 
 `get` is a function that returns the value for a given key.
 
