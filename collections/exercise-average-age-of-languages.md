@@ -2,11 +2,8 @@
 
 Lets take the [programming language ages exercise](/simple-values/exercise-age-of-languages.html) and use a collection for the ages.  Does this change how we work with the numbers?
 
-The programming language ages in a vector collection:
+The programming language ages in a vector collection: `[10 27 26 21 22 22 45 34 59 60]`.
 
-`[10 27 26 21 22 22 45 34 59 60]`.
-
-------------------------------------------
 
 > #### Note::Find the age of the youngest programming language
 > How could you find the smallest number?
@@ -18,7 +15,7 @@ The programming language ages in a vector collection:
 ()
 ```
 
-<!--sec data-title="Reveal answer..." data-id="answer003" data-collapse=true ces-->
+<!--sec data-title="Reveal answer..." data-id="answer001" data-collapse=true ces-->
 
 ```clojure
 (first (sort [10 27 26 21 22 22 45 34 59 60]))
@@ -51,7 +48,8 @@ We could also use a function called `count` to get the total number of items in 
 
 > #### Note::Average age of programming languages updated
 > Calculate the average age of the programming languages
-> using local assignment `let` and `count` function.
+> using [local assignment `let`](/assignment/let-local-assignment.html)
+> and [`count` function](https://clojuredocs.org/clojure.core/count).
 ```eval-clojure
 ()
 ```
@@ -59,16 +57,12 @@ We could also use a function called `count` to get the total number of items in 
 <hr / >
 
 > #### Hint::
-> We may need to use `apply` function to sum ages of languages or function `reduce`
-> which we will discuss later in this course.
+> The `apply` function allows a function that takes a single argument, like `+`, to be used with a collection.
 ```clojure
 (apply + [2 3 4])         ;=> 9
-(reduce + [2 3 4])        ;=> 9
 ```
 
-------------------------------------------
-
-<!--sec data-title="Reveal answer..." data-id="answer004" data-collapse=true ces-->
+<!--sec data-title="Reveal answer..." data-id="answer002" data-collapse=true ces-->
 
 ```clojure
 (let [ages [10 27 26 21 22 22 45 34 59 60]]
