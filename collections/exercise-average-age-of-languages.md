@@ -24,13 +24,6 @@ The programming language ages in a vector collection:
 (first (sort [10 27 26 21 22 22 45 34 59 60]))
 ```
 
-We could also use a function called `count` to get the total number of ages.  The total value is then used to divide all the ages by.  The more languages we have, the more useful a collection becomes.
-
-```clojure
-(/ (+ 10 27 26  21 22 22 45 34 59 60)
-   (count [10 27 26  21 22 22 45 34 59 60]))
-```
-
 The [min](https://clojuredocs.org/clojure.core/min) function will simplify our expression but we need to pass the individual numbers
 
 ```clojure
