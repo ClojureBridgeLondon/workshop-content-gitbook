@@ -45,3 +45,34 @@ The `apply` function essentially re-writes the code so that every element in the
 There are over 600 functions in `clojure.core` so there is often a function you are looking for to simplify you code
 
 <!--endsec-->
+
+The more languages we have, the more useful a collection becomes.
+We could also use a function called `count` to get the total number of items in a collection.
+
+> #### Note::Average age of programming languages updated
+> Calculate the average age of the programming languages
+> using local assignment `let` and `count` function.
+```eval-clojure
+()
+```
+
+<hr / >
+
+> #### Hint::
+> We may need to use `apply` function to sum ages of languages or function `reduce`
+> which we will discuss later in this course.
+```clojure
+(apply + [2 3 4])         ;=> 9
+(reduce + [2 3 4])        ;=> 9
+```
+
+------------------------------------------
+
+<!--sec data-title="Reveal answer..." data-id="answer004" data-collapse=true ces-->
+
+```clojure
+(let [ages [10 27 26 21 22 22 45 34 59 60]]
+  (/ (apply + ages) (count ages)))
+```
+
+<!--endsec-->
