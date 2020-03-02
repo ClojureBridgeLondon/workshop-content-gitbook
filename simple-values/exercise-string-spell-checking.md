@@ -7,7 +7,9 @@
 >
 > "simplicity ovr complexity"
 >
-> "coed as data as coed"
+> Or maybe someone has broken letter `h` and you can help with that?
+>
+> "ello friends. ello Clojurians. ello developers around our world."
 ```eval-clojure
 ()
 ```
@@ -23,8 +25,8 @@ Again, the [`clojure.string`](https://clojuredocs.org/clojure.string) library he
 ;; => "simplicity over complexity"
 
 
-(clojure.string/replace "coed as data as coed" "coed" "code")
-;; => "code as data as code"
+(clojure.string/replace "ello friends. ello Clojurians. ello developers around our world." "ello" "Hello")
+;; => "Hello friends. Hello Clojurians. Hello developers around our world."
 ```
 
 <!--endsec-->
