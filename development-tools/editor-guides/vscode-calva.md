@@ -13,23 +13,17 @@ Open the VSCode editor and open the root folder of your project.  Then add use l
 Select the top level of the folder, e.g. `playground` and click **OK**
 
 
-
-Start a REPL project and connect: .
-Answer the quick-pick prompts telling Calva about project types and what profiles to start.
-
-
-## Start a REPL for the project using Leiningen.
+## Start a REPL for the project
 
 `ctrl+alt+c ctrl+alt+j` to start a REPL.
 
-Select or type `Leiningen` when prompted for the project type
+Select either `Clojure CLI` or `Leiningen` when prompted for the project type
 
 ![VS Code - Calva - Start REPL - nREPL button](/images/vscode-calva-clojure-repl-connect-project-type.png)
 
 Wait a few moments for the REPL to start.
 
 A new CLJ REPL tab will open when the Clojure REPL is ready
-
 
 ![VS Code - Calva - Start REPL - nREPL button](/images/vscode-calva-clojure-repl-connect-repl-tab.png)
 
@@ -43,6 +37,7 @@ Open the Output tab to see the progress of the REPL starting.  Ask your coach fo
 
 ![VS Code - Calva - Start REPL - nREPL button](/images/vscode-calva-clojure-repl-connect-output.png)
 
+Try running a REPL in the command line and connecting to it (details at bottom of this page).
 
 
 ## Developing your project ##
@@ -96,7 +91,7 @@ Please look at the [documentation for Calva Paredit](https://calva.readthedocs.i
 
 ---
 
-## Starting a remote REPL (old approach)
+## Start a REPL on the command line (alternate approach)
 **Ctrl+`** toggles open the [VSCode Integrated terminal](https://code.visualstudio.com/docs/editor/integrated-terminal).  Or open your operating system terminal.
 
 > ####INFO::Windows GitBash users
@@ -109,7 +104,7 @@ Type the command `lein repl` in the terminal.
 ![VS Code Terminal - Clojure REPL running](/images/vscode-calva-terminal-repl-running.png)
 
 
-### Connecting to a Remote REPL from Calva
+### Connecting to an external REPL from Calva
 
 `Ctrl+Alt+c Ctrl+Alt+c` will open a command pop-up asking you to enter **host** and **port**. These details were shown when the REPL was run in the terminal.
 
