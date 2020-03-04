@@ -1,6 +1,6 @@
 # Microsoft VSCode and Calva extension
 
-VS Code supports Clojure and ClojureScript development through an extension called [Calva](https://marketplace.visualstudio.com/items?itemName=betterthantomorrow.calva).  A Clojure REPL is run via Leiningen first, then connected to from VSCode.
+VS Code supports Clojure and ClojureScript development through an extension called [Calva](https://marketplace.visualstudio.com/items?itemName=betterthantomorrow.calva).
 
 ![VSCode Calva extension for Clojure development](https://github.com/BetterThanTomorrow/calva/raw/master/assets/howto/evaluate.gif)
 

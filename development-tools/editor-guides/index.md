@@ -6,7 +6,7 @@ We would like you to spend as much of your time at the workshop learning Clojure
 |------------------------------------------------------|------------------------------------------------------------------------------|------------------------------------------------------------------|
 | [Atom and ProtoREPL](atom-protorepl.html)            |                                                                              |                                                                  |
 | [Atom & Proton](atom-proton.html)                    | [Proton Manual](https://github.com/dvcrn/proton/blob/master/MANUAL.md)       |                                                                  |
-| [Microsoft VSCode & Calva](vscode-calva.html) (TODO) | [Calva - How to use](https://github.com/BetterThanTomorrow/calva#how-to-use) |                                                                  |
+| [Microsoft VSCode & Calva](vscode-calva.html) (TODO) | [Calva - How to use](https://calva.readthedocs.io/en/latest/index.html) |                                                                  |
 | [Spacemacs](emacs-spacemacs.html)                    | [Spacemacs documentation](http://spacemacs.org/doc/DOCUMENTATION.html)       | [Practicalli Spacemacs](https://practicalli.github.io/spacemacs) |
 | [IntelliJ & Cursive](intellij-cursive.html)   (TODO) | [Cursive user guide](https://cursive-ide.com/userguide/)                     |                                                                  |
 

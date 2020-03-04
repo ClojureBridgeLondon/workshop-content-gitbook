@@ -47,7 +47,7 @@ Proton offers a simple mnemonic menu as an alternative to the somewhat cumbersom
 <!-- VSCode and Calva -->
 {% content "vscode" %}
 
-[VSCode Calva extension](https://marketplace.visualstudio.com/items?itemName=cospaia.clojure4vscode)
+[VSCode Calva extension](https://marketplace.visualstudio.com/items?itemName=betterthantomorrow.calva)
 
 ![VSCode Calva demo](https://github.com/BetterThanTomorrow/calva/raw/master/assets/howto/features.gif)
 
